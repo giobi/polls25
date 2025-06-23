@@ -1,57 +1,114 @@
 // test-runner.js
 
-document.addEventListener('DOMContentLoaded', function() {
-    const testContainer = document.getElementById('test-container');
-    const scoreDisplay = document.getElementById('score-display');
-    let score = 0;
+document.addEventListener('DOMContentLoaded', () => {
+    const pollTitle = document.getElementById('poll-title');
+    const pollQuestions = document.getElementById('poll-questions');
+    const submitButton = document.getElementById('submit-button');
+    const pollResult = document.getElementById('poll-result');
+
     let currentQuestionIndex = 0;
-    let questions = [];
+    let score = 0;
+    let pollData;
 
-    function loadTest(testFile) {
-        fetch(testFile)
-            .then(response => response.json())
-            .then(data => {
-                questions = data.questions;
-                displayQuestion();
-            })
-            .catch(error => console.error('Error loading test:', error));
-    }
+    const loadTestData = async () => {
+        try {
+            const urlParams = new URLSearchParams(window.location.search);
+            const pollId = urlParams.get('poll');
+            if (!pollId) {
+                pollQuestions.innerHTML = '<p class="text-danger">Sondaggio non specificato.</p>';
+                return;
+            }
 
-    function displayQuestion() {
-        if (currentQuestionIndex < questions.length) {
-            const question = questions[currentQuestionIndex];
-            testContainer.innerHTML = `
-                <h2>${question.question}</h2>
-                ${question.answers.map((answer, index) => `
-                    <div>
-                        <input type="radio" name="answer" id="answer${index}" value="${answer.points}">
-                        <label for="answer${index}">${answer.text}</label>
-                    </div>
-                `).join('')}
-                <button id="next-button">Next</button>
-            `;
-            document.getElementById('next-button').addEventListener('click', handleNext);
-        } else {
-            displayScore();
-        }
-    }
+            const response = await fetch(`polls/${pollId}.json`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            pollData = await response.json();
 
-    function handleNext() {
-        const selectedAnswer = document.querySelector('input[name="answer"]:checked');
-        if (selectedAnswer) {
-            score += parseInt(selectedAnswer.value);
-            currentQuestionIndex++;
+            const pageVersionMatch = window.location.pathname.match(/poll-(v\d+)\.html/);
+            const pageVersion = pageVersionMatch ? pageVersionMatch[1] : null;
+
+            if (pageVersion !== pollData.version) {
+                pollQuestions.innerHTML = `<p class="text-danger">Versione del sondaggio non corrispondente. Pagina richiesta: ${pageVersion}, versione sondaggio: ${pollData.version}.</p>`;
+                submitButton.style.display = 'none';
+                return;
+            }
+
+            pollTitle.textContent = pollData.title;
             displayQuestion();
-        } else {
-            alert('Please select an answer before proceeding.');
+        } catch (error) {
+            console.error('Errore durante il caricamento del test:', error);
+            pollQuestions.innerHTML = '<p class="text-danger">Impossibile caricare il test.</p>';
+            submitButton.style.display = 'none';
         }
-    }
+    };
 
-    function displayScore() {
-        testContainer.innerHTML = `<h2>Your score: ${score}</h2>`;
-        scoreDisplay.innerHTML = `Total Score: ${score}`;
-    }
+    const displayQuestion = () => {
+        if (currentQuestionIndex < pollData.questions.length) {
+            const question = pollData.questions[currentQuestionIndex];
+            let optionsHtml = '';
+            question.options.forEach((option, index) => {
+                optionsHtml += `
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="option" id="option${index}" value="${option.points}">
+                        <label class="form-check-label" for="option${index}">
+                            ${option.text}
+                        </label>
+                    </div>
+                `;
+            });
 
-    // Load the test file (example: polls/sei-sith-o-jedi.json)
-    loadTest('polls/sei-sith-o-jedi.json');
+            pollQuestions.innerHTML = `
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">${question.question}</h5>
+                        ${optionsHtml}
+                    </div>
+                </div>
+            `;
+            submitButton.textContent = 'Prossima Domanda';
+        } else {
+            calculateResult();
+        }
+    };
+
+    const calculateResult = () => {
+        const result = pollData.results.find(r => score >= r.minScore && score <= r.maxScore);
+        pollTitle.textContent = 'Risultato del Test';
+        if (result) {
+            pollQuestions.innerHTML = `
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">${result.title}</h5>
+                        <p class="card-text">${result.text}</p>
+                    </div>
+                </div>
+            `;
+        } else {
+            pollQuestions.innerHTML = `<p>Non è stato possibile calcolare il risultato per il punteggio: ${score}.</p>`;
+        }
+        submitButton.style.display = 'none';
+    };
+
+    const handleSubmit = () => {
+        const selectedOption = document.querySelector('input[name="option"]:checked');
+        if (!selectedOption) {
+            if (!document.getElementById('no-answer-alert')) {
+                const alertDiv = document.createElement('div');
+                alertDiv.id = 'no-answer-alert';
+                alertDiv.className = 'alert alert-warning mt-2';
+                alertDiv.textContent = 'Per favore, seleziona una risposta.';
+                pollQuestions.querySelector('.card-body').appendChild(alertDiv);
+            }
+            return;
+        }
+
+        score += parseInt(selectedOption.value, 10);
+        currentQuestionIndex++;
+        displayQuestion();
+    };
+
+    submitButton.addEventListener('click', handleSubmit);
+
+    loadTestData();
 });

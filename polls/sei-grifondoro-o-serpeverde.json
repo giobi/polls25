@@ -1,0 +1,31 @@
+{
+  "version": "v1",
+  "title": "Sei Grifondoro o Serpeverde?",
+  "questions": [
+    {
+      "question": "Quale qualità apprezzi di più?",
+      "options": [
+        {"text": "Il coraggio", "points": 1},
+        {"text": "L'ambizione", "points": 2}
+      ]
+    },
+    {
+      "question": "Cosa faresti per raggiungere i tuoi obiettivi?",
+      "options": [
+        {"text": "Affronterei qualsiasi pericolo", "points": 1},
+        {"text": "Userei qualsiasi mezzo necessario", "points": 2}
+      ]
+    },
+    {
+      "question": "Quale animale domestico porteresti a Hogwarts?",
+      "options": [
+        {"text": "Un gufo", "points": 1},
+        {"text": "Un serpente", "points": 2}
+      ]
+    }
+  ],
+  "results": [
+    {"minScore": 3, "maxScore": 4, "title": "Sei un Grifondoro", "text": "Sei coraggioso, audace e cavalleresco. La tua casa è quella di Harry Potter!"},
+    {"minScore": 5, "maxScore": 6, "title": "Sei un Serpeverde", "text": "Sei astuto, ambizioso e determinato. La tua casa è quella di Draco Malfoy!"}
+  ]
+}

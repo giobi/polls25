@@ -1,0 +1,31 @@
+{
+  "version": "v1",
+  "title": "Sei Lealista o Traditore?",
+  "questions": [
+    {
+      "question": "Per chi combatti?",
+      "options": [
+        {"text": "Per l'Imperatore e l'umanità!", "points": 1},
+        {"text": "Per il potere e la libertà dal falso Imperatore!", "points": 2}
+      ]
+    },
+    {
+      "question": "Quale arma scegli?",
+      "options": [
+        {"text": "Un fidato Bolter", "points": 1},
+        {"text": "Un'arma demoniaca che sussurra promesse", "points": 2}
+      ]
+    },
+    {
+      "question": "Qual è il tuo motto?",
+      "options": [
+        {"text": "Il coraggio e l'onore!", "points": 1},
+        {"text": "Morte al Falso Imperatore!", "points": 2}
+      ]
+    }
+  ],
+  "results": [
+    {"minScore": 3, "maxScore": 4, "title": "Sei un Lealista", "text": "La tua fedeltà all'Imperatore è incrollabile. Combatti per la luce e l'umanità!"},
+    {"minScore": 5, "maxScore": 6, "title": "Sei un Traditore", "text": "Hai abbracciato i poteri del Caos. La galassia brucerà sotto il tuo comando!"}
+  ]
+}

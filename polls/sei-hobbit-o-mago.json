@@ -1,0 +1,31 @@
+{
+  "version": "v1",
+  "title": "Sei un Hobbit o un Mago?",
+  "questions": [
+    {
+      "question": "Cosa preferisci per colazione?",
+      "options": [
+        {"text": "Salsicce e pancetta", "points": 1},
+        {"text": "Un po' di pane e formaggio", "points": 2}
+      ]
+    },
+    {
+      "question": "Quale sarebbe la tua vacanza ideale?",
+      "options": [
+        {"text": "Rilassarsi a casa con un buon libro", "points": 1},
+        {"text": "Esplorare antiche rovine", "points": 2}
+      ]
+    },
+    {
+      "question": "Come affronti i problemi?",
+      "options": [
+        {"text": "Con buon senso e un pasto abbondante", "points": 1},
+        {"text": "Con saggezza e un pizzico di magia", "points": 2}
+      ]
+    }
+  ],
+  "results": [
+    {"minScore": 3, "maxScore": 4, "title": "Sei un Hobbit", "text": "Ami le comodità, il buon cibo e una vita tranquilla. La Contea ti aspetta!"},
+    {"minScore": 5, "maxScore": 6, "title": "Sei un Mago", "text": "Sei saggio, potente e sempre in cerca di conoscenza. Il tuo destino è grande."}
+  ]
+}

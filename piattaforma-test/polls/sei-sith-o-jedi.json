@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "title": "Sei Sith o Jedi",
+  "description": "Un test per determinare se sei un Sith o un Jedi.",
+  "questions": [
+    {
+      "question": "Qual è il tuo colore preferito?",
+      "options": [
+        {
+          "text": "Rosso",
+          "points": 2
+        },
+        {
+          "text": "Blu",
+          "points": 1
+        },
+        {
+          "text": "Verde",
+          "points": 1
+        },
+        {
+          "text": "Nero",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Come reagisci di fronte a una sfida?",
+      "options": [
+        {
+          "text": "Affronto la sfida con determinazione.",
+          "points": 1
+        },
+        {
+          "text": "Cerco di evitarla.",
+          "points": 2
+        },
+        {
+          "text": "La affronto con astuzia.",
+          "points": 2
+        },
+        {
+          "text": "Collaboro con gli altri per superarla.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "question": "Qual è il tuo obiettivo nella vita?",
+      "options": [
+        {
+          "text": "Acquisire potere.",
+          "points": 2
+        },
+        {
+          "text": "Aiutare gli altri.",
+          "points": 1
+        },
+        {
+          "text": "Cercare la verità.",
+          "points": 1
+        },
+        {
+          "text": "Dominare il mondo.",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

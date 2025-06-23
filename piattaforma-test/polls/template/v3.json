@@ -1,0 +1,71 @@
+{
+  "version": "3.0",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual è il tuo colore preferito?",
+      "options": [
+        {
+          "text": "Blu",
+          "points": 5
+        },
+        {
+          "text": "Rosso",
+          "points": 3
+        },
+        {
+          "text": "Verde",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Quale animale ti rappresenta di più?",
+      "options": [
+        {
+          "text": "Falco",
+          "points": 5
+        },
+        {
+          "text": "Lupo",
+          "points": 3
+        },
+        {
+          "text": "Panda",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual è la tua attività preferita nel tempo libero?",
+      "options": [
+        {
+          "text": "Allenamento",
+          "points": 5
+        },
+        {
+          "text": "Lettura",
+          "points": 3
+        },
+        {
+          "text": "Giocare ai videogiochi",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "sith": {
+      "minPoints": 0,
+      "maxPoints": 9,
+      "description": "Sei un Sith, la tua oscurità è palpabile."
+    },
+    "jedi": {
+      "minPoints": 10,
+      "maxPoints": 15,
+      "description": "Sei un Jedi, la luce è con te."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "version": "2.0",
+  "title": "Test di esempio versione 2",
+  "description": "Questo è un template per la versione 2 del test.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual è il tuo colore preferito?",
+      "options": [
+        {
+          "text": "Blu",
+          "points": 5
+        },
+        {
+          "text": "Rosso",
+          "points": 3
+        },
+        {
+          "text": "Verde",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Quale animale ti rappresenta di più?",
+      "options": [
+        {
+          "text": "Aquila",
+          "points": 5
+        },
+        {
+          "text": "Lupo",
+          "points": 3
+        },
+        {
+          "text": "Gatto",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Sei più incline a:",
+      "options": [
+        {
+          "text": "Prendere rischi",
+          "points": 5
+        },
+        {
+          "text": "Essere cauto",
+          "points": 3
+        },
+        {
+          "text": "Essere indifferente",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "minPoints": 3,
+    "maxPoints": 15,
+    "profiles": [
+      {
+        "name": "Jedi",
+        "description": "Sei un Jedi, un guardiano della pace."
+      },
+      {
+        "name": "Sith",
+        "description": "Sei un Sith, in cerca di potere."
+      },
+      {
+        "name": "Neutro",
+        "description": "Sei neutro, non inclini a nessuna parte."
+      }
+    ]
+  }
+}

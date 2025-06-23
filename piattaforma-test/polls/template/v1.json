@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "question": "Sei un Jedi o un Sith?",
+      "options": [
+        {
+          "text": "Jedi",
+          "points": 10
+        },
+        {
+          "text": "Sith",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "question": "Qual è il tuo colore di lightsaber preferito?",
+      "options": [
+        {
+          "text": "Blu",
+          "points": 10
+        },
+        {
+          "text": "Rosso",
+          "points": 0
+        },
+        {
+          "text": "Verde",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "question": "Quale frase ti rappresenta di più?",
+      "options": [
+        {
+          "text": "La forza è con me.",
+          "points": 10
+        },
+        {
+          "text": "Il lato oscuro è potente.",
+          "points": 0
+        }
+      ]
+    }
+  ]
+}

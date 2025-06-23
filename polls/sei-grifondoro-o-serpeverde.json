@@ -1,59 +1,109 @@
 {
   "version": "v1",
   "title": "Sei Grifondoro o Serpeverde?",
+  "description": "Un test per scoprire a quale casa di Hogwarts appartieni veramente.",
   "questions": [
     {
-      "question": "Quale qualità apprezzi di più?",
+      "question": "La Stanza delle Necessità ti offre ciò che desideri di più. Cosa trovi?",
       "options": [
         {
-          "text": "Il coraggio",
+          "text": "Una spada leggendaria per difendere i tuoi amici.",
           "points": 1
         },
         {
-          "text": "L'ambizione",
+          "text": "Un libro di incantesimi perduti che promette un potere immenso.",
+          "points": 2
+        },
+        {
+          "text": "Una stanza piena dei tuoi cari, al sicuro e felici.",
+          "points": 1
+        },
+        {
+          "text": "Un diadema che aumenta l'intelligenza di chi lo indossa.",
+          "points": 2
+        },
+        {
+          "text": "Una mappa che mostra tutti i passaggi segreti di Hogwarts.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Cosa faresti per raggiungere i tuoi obiettivi?",
+      "question": "Quale difetto consideri più insopportabile negli altri?",
       "options": [
         {
-          "text": "Affronterei qualsiasi pericolo",
+          "text": "La codardia di fronte al pericolo.",
           "points": 1
         },
         {
-          "text": "Userei qualsiasi mezzo necessario",
+          "text": "La mancanza di ambizione e di obiettivi.",
+          "points": 2
+        },
+        {
+          "text": "L'ingiustizia e il bullismo verso i più deboli.",
+          "points": 1
+        },
+        {
+          "text": "La stupidità e la mancanza di astuzia.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Quale animale domestico porteresti a Hogwarts?",
+      "question": "Per raggiungere un tuo grande obiettivo, saresti disposto a infrangere le regole?",
       "options": [
         {
-          "text": "Un gufo",
+          "text": "Sì, ma solo se è per un bene superiore e non danneggia nessuno.",
           "points": 1
         },
         {
-          "text": "Un serpente",
+          "text": "Le regole sono fatte per essere piegate, se non spezzate, per il successo.",
           "points": 2
+        },
+        {
+          "text": "No, l'integrità e l'onore sono più importanti del successo personale.",
+          "points": 1
+        },
+        {
+          "text": "Sì, e userei ogni mezzo a mia disposizione per non essere scoperto.",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Quale materia di Hogwarts trovi più affascinante?",
+      "options": [
+        {
+          "text": "Difesa Contro le Arti Oscure, per imparare a proteggere gli altri.",
+          "points": 1
+        },
+        {
+          "text": "Pozioni, per la sua sottile scienza e l'arte esatta.",
+          "points": 2
+        },
+        {
+          "text": "Trasfigurazione, per la sua complessità e il suo potere.",
+          "points": 2
+        },
+        {
+          "text": "Incantesimi, per la sua versatilità e utilità pratica.",
+          "points": 1
         }
       ]
     }
   ],
   "results": [
     {
-      "minScore": 3,
-      "maxScore": 4,
+      "minScore": 4,
+      "maxScore": 6,
       "title": "Sei un Grifondoro",
-      "text": "Sei coraggioso, audace e cavalleresco. La tua casa è quella di Harry Potter!"
+      "text": "Il tuo cuore è colmo di coraggio, audacia e cavalleria. Affronteresti un drago per i tuoi amici. La tua casa è quella di Godric Grifondoro!"
     },
     {
-      "minScore": 5,
-      "maxScore": 6,
+      "minScore": 7,
+      "maxScore": 8,
       "title": "Sei un Serpeverde",
-      "text": "Sei astuto, ambizioso e determinato. La tua casa è quella di Draco Malfoy!"
+      "text": "La tua ambizione, astuzia e determinazione ti guidano. Non ti fermi davanti a nulla per raggiungere i tuoi obiettivi. La tua casa è quella di Salazar Serpeverde!"
     }
   ]
 }

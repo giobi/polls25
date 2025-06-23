@@ -1,42 +1,92 @@
 {
   "version": "v1",
   "title": "Sei Lealista o Traditore?",
+  "description": "Un test per determinare la tua fedeltà nell'universo di Warhammer 40,000.",
   "questions": [
     {
-      "question": "Per chi combatti?",
+      "question": "L'Imperium richiede un sacrificio estremo per respingere un'invasione Xenos. Un intero mondo deve essere epurato. Qual è la tua reazione?",
       "options": [
         {
-          "text": "Per l'Imperatore e l'umanità!",
+          "text": "Il sacrificio è necessario per la sopravvivenza dell'umanità.",
           "points": 1
         },
         {
-          "text": "Per il potere e la libertà dal falso Imperatore!",
+          "text": "Cerco disperatamente un'alternativa per salvare il pianeta.",
+          "points": 1
+        },
+        {
+          "text": "Questa è una tirannia che l'Imperatore non avrebbe mai voluto.",
+          "points": 2
+        },
+        {
+          "text": "Sfrutto il caos per il mio tornaconto, stringendo patti oscuri.",
+          "points": 2
+        },
+        {
+          "text": "Metto in discussione l'autorità che ha preso questa decisione.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Quale arma scegli?",
+      "question": "Ti viene offerto un potere immenso da un'entità del Warp. Cosa fai?",
       "options": [
         {
-          "text": "Un fidato Bolter",
+          "text": "Rifiuto senza esitazione. Tali doni hanno un prezzo troppo alto.",
           "points": 1
         },
         {
-          "text": "Un'arma demoniaca che sussurra promesse",
+          "text": "Accetto, credendo di poter controllare il potere per il bene dell'Imperium.",
+          "points": 2
+        },
+        {
+          "text": "Accetto. Il fine giustifica i mezzi per ottenere la vera libertà.",
+          "points": 2
+        },
+        {
+          "text": "Denuncio l'entità e chiunque sia coinvolto all'Inquisizione.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "question": "Un Primarca ritenuto perduto ritorna, ma i suoi metodi sono brutali. Come ti schieri?",
+      "options": [
+        {
+          "text": "La sua parola è legge. Un Primarca è al di sopra di ogni critica.",
+          "points": 1
+        },
+        {
+          "text": "Lo seguo. L'Imperium ha bisogno di una scossa e di decisioni difficili.",
+          "points": 2
+        },
+        {
+          "text": "Rimango fedele all'Imperatore e ai dettami dei Sommi Signori della Terra.",
+          "points": 1
+        },
+        {
+          "text": "Vedo un'opportunità per la mia fazione nella spaccatura che crea.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Qual è il tuo motto?",
+      "question": "Quale verità consideri più importante?",
       "options": [
         {
-          "text": "Il coraggio e l'onore!",
+          "text": "La Fede nell'Imperatore è l'unica verità che conta.",
           "points": 1
         },
         {
-          "text": "Morte al Falso Imperatore!",
+          "text": "La conoscenza è potere, anche quella proibita.",
+          "points": 2
+        },
+        {
+          "text": "La lealtà ai propri compagni d'arme è il fondamento della vittoria.",
+          "points": 1
+        },
+        {
+          "text": "L'Imperium è corrotto e deve essere purificato, anche con il fuoco.",
           "points": 2
         }
       ]
@@ -44,16 +94,16 @@
   ],
   "results": [
     {
-      "minScore": 3,
-      "maxScore": 4,
+      "minScore": 4,
+      "maxScore": 6,
       "title": "Sei un Lealista",
-      "text": "La tua fedeltà all'Imperatore è incrollabile. Combatti per la luce e l'umanità!"
+      "text": "La tua fedeltà all'Imperatore e all'umanità è incrollabile. Combatti con onore e coraggio per la luce dell'Imperium!"
     },
     {
-      "minScore": 5,
-      "maxScore": 6,
+      "minScore": 7,
+      "maxScore": 8,
       "title": "Sei un Traditore",
-      "text": "Hai abbracciato i poteri del Caos. La galassia brucerà sotto il tuo comando!"
+      "text": "Hai scelto la via della ribellione e del potere. Che la galassia tremi davanti alla tua ambizione!"
     }
   ]
 }

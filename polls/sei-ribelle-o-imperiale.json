@@ -1,42 +1,92 @@
 {
   "version": "v1",
   "title": "Sei Ribelle o Imperiale?",
+  "description": "Un test per determinare la tua lealtà nella Guerra Civile Galattica.",
   "questions": [
     {
-      "question": "Cosa rappresenta per te la galassia?",
+      "question": "Un pianeta dell'Orlo Esterno si rifiuta di pagare le tasse imperiali, citando la povertà. Come rispondi?",
       "options": [
         {
-          "text": "Un luogo di libertà e speranza",
+          "text": "Invio aiuti umanitari. La lealtà non si ottiene con la fame.",
           "points": 1
         },
         {
-          "text": "Un sistema che necessita di ordine e controllo",
+          "text": "Stabilisco un blocco navale. L'ordine deve essere mantenuto.",
+          "points": 2
+        },
+        {
+          "text": "Uso la situazione per fomentare una ribellione aperta contro l'Impero.",
+          "points": 1
+        },
+        {
+          "text": "Faccio un esempio, punendo severamente i leader per scoraggiare future ribellioni.",
+          "points": 2
+        },
+        {
+          "text": "Apro un canale di contrabbando per aiutarli di nascosto.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "question": "Quale ideale ti guida?",
+      "options": [
+        {
+          "text": "La speranza in una galassia libera e giusta per tutti.",
+          "points": 1
+        },
+        {
+          "text": "La pace e la stabilità, garantite da un governo forte.",
+          "points": 2
+        },
+        {
+          "text": "La libertà individuale sopra ogni altra cosa.",
+          "points": 1
+        },
+        {
+          "text": "L'ordine è il fondamento di ogni civiltà prospera.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Quale nave preferisci?",
+      "question": "La Morte Nera viene presentata come l'ultima arma di mantenimento della pace. La tua opinione?",
       "options": [
         {
-          "text": "Un agile X-Wing",
+          "text": "È uno strumento di terrore e oppressione, non di pace.",
           "points": 1
         },
         {
-          "text": "Un imponente Star Destroyer",
+          "text": "Un male necessario per porre fine a guerre interminabili.",
+          "points": 2
+        },
+        {
+          "text": "Il suo potere è troppo grande per essere controllato da chiunque.",
+          "points": 1
+        },
+        {
+          "text": "La paura della sua potenza garantirà la stabilità a lungo termine.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Come ottieni ciò che vuoi?",
+      "question": "Come descriveresti la tua tattica preferita?",
       "options": [
         {
-          "text": "Con la diplomazia e il coraggio",
+          "text": "Attacchi rapidi e a sorpresa, colpendo dove il nemico è debole.",
           "points": 1
         },
         {
-          "text": "Con la forza e la determinazione",
+          "text": "Una schiacciante dimostrazione di forza per demoralizzare l'avversario.",
+          "points": 2
+        },
+        {
+          "text": "Guerriglia e sabotaggio, usando l'ambiente a mio vantaggio.",
+          "points": 1
+        },
+        {
+          "text": "Una strategia meticolosa e una catena di comando impeccabile.",
           "points": 2
         }
       ]
@@ -44,16 +94,16 @@
   ],
   "results": [
     {
-      "minScore": 3,
-      "maxScore": 4,
+      "minScore": 4,
+      "maxScore": 6,
       "title": "Sei un Ribelle",
-      "text": "Combatti per la libertà e la giustizia nella galassia. Che la Forza sia con te!"
+      "text": "Combatti per ripristinare la libertà e la giustizia nella galassia. La tua speranza è la scintilla che accenderà il fuoco della rivoluzione."
     },
     {
-      "minScore": 5,
-      "maxScore": 6,
+      "minScore": 7,
+      "maxScore": 8,
       "title": "Sei un Imperiale",
-      "text": "Credi nell'ordine e nella stabilità. L'Impero garantirà la pace attraverso il potere."
+      "text": "Credi fermamente che solo un Impero forte e unito possa portare pace e ordine duraturi. La stabilità prima di tutto."
     }
   ]
 }

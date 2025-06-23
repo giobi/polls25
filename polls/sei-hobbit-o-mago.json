@@ -1,42 +1,92 @@
 {
   "version": "v1",
   "title": "Sei un Hobbit o un Mago?",
+  "description": "Un test per scoprire se preferisci una vita di comodi piaceri o di grandi avventure e saggezza.",
   "questions": [
     {
-      "question": "Cosa preferisci per colazione?",
+      "question": "Un drago si è stabilito su una montagna vicina, ammassando un tesoro. Cosa fai?",
       "options": [
         {
-          "text": "Salsicce e pancetta",
+          "text": "Spero che qualcuno se ne occupi, magari con una bella canzone.",
           "points": 1
         },
         {
-          "text": "Un po' di pane e formaggio",
+          "text": "Studio antichi tomi per trovare un punto debole nella sua specie.",
+          "points": 2
+        },
+        {
+          "text": "Organizzo una spedizione. Quel tesoro potrebbe migliorare la vita di tutti.",
+          "points": 2
+        },
+        {
+          "text": "Mi assicuro che la mia dispensa sia ben fornita in caso di problemi.",
+          "points": 1
+        },
+        {
+          "text": "Cerco di negoziare con il drago. Forse è solo incompreso.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Quale sarebbe la tua vacanza ideale?",
+      "question": "Qual è il tuo passatempo preferito?",
       "options": [
         {
-          "text": "Rilassarsi a casa con un buon libro",
+          "text": "Giardinaggio e preparazione di ottimi pasti.",
           "points": 1
         },
         {
-          "text": "Esplorare antiche rovine",
+          "text": "Leggere mappe stellari e decifrare antiche rune.",
+          "points": 2
+        },
+        {
+          "text": "Fumare la pipa e raccontare storie davanti al fuoco.",
+          "points": 1
+        },
+        {
+          "text": "Creare fuochi d'artificio spettacolari.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Come affronti i problemi?",
+      "question": "Un oggetto di grande potere deve essere distrutto. Qual è il tuo ruolo?",
       "options": [
         {
-          "text": "Con buon senso e un pasto abbondante",
+          "text": "Mi offro volontario per portarlo, anche se la strada è pericolosa.",
           "points": 1
         },
         {
-          "text": "Con saggezza e un pizzico di magia",
+          "text": "Fornisco la guida e la saggezza necessarie per il successo della missione.",
+          "points": 2
+        },
+        {
+          "text": "Offro supporto morale e un pasto caldo a chi parte per l'impresa.",
+          "points": 1
+        },
+        {
+          "text": "Uso la mia influenza per radunare alleati potenti.",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question": "Cosa apprezzi di più in un compagno di viaggio?",
+      "options": [
+        {
+          "text": "La lealtà incrollabile e un cuore semplice.",
+          "points": 1
+        },
+        {
+          "text": "La conoscenza di antichi segreti e potenti incantesimi.",
+          "points": 2
+        },
+        {
+          "text": "Il coraggio di affrontare le avversità senza esitazione.",
+          "points": 1
+        },
+        {
+          "text": "La capacità di vedere oltre l'ovvio e pianificare a lungo termine.",
           "points": 2
         }
       ]
@@ -44,16 +94,16 @@
   ],
   "results": [
     {
-      "minScore": 3,
-      "maxScore": 4,
+      "minScore": 4,
+      "maxScore": 6,
       "title": "Sei un Hobbit",
-      "text": "Ami le comodità, il buon cibo e una vita tranquilla. La Contea ti aspetta!"
+      "text": "Ami le comodità della vita: un buon pasto, un focolare caldo e la compagnia di buoni amici. La tua forza risiede nella tua resilienza e nel tuo cuore puro."
     },
     {
-      "minScore": 5,
-      "maxScore": 6,
+      "minScore": 7,
+      "maxScore": 8,
       "title": "Sei un Mago",
-      "text": "Sei saggio, potente e sempre in cerca di conoscenza. Il tuo destino è grande."
+      "text": "Sei un cercatore di conoscenza e un detentore di grande potere. Il tuo ruolo è guidare e proteggere, vedendo i fili del destino che legano il mondo."
     }
   ]
 }

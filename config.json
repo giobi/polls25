@@ -1,0 +1,9 @@
+{
+    "polls": [
+        {
+            "id": "sei-sith-o-jedi",
+            "title": "Sei Sith o Jedi?",
+            "url": "poll-v1.html?poll=sei-sith-o-jedi"
+        }
+    ]
+}

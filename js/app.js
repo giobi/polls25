@@ -1,50 +1,46 @@
-const app = (() => {
-    const testContainer = document.getElementById('test-container');
+document.addEventListener('DOMContentLoaded', () => {
+    const testList = document.getElementById('test-list');
     const searchInput = document.getElementById('search-input');
-    const searchButton = document.getElementById('search-button');
 
     const loadTests = async () => {
         try {
-            const response = await fetch('polls/sei-sith-o-jedi.json');
-            const tests = await response.json();
-            displayTests(tests);
+            const response = await fetch('config.json');
+            const config = await response.json();
+            displayTests(config.polls);
         } catch (error) {
             console.error('Error loading tests:', error);
+            testList.innerHTML = '<li class="list-group-item text-danger">Errore nel caricamento dei test.</li>';
         }
     };
 
-    const displayTests = (tests) => {
-        testContainer.innerHTML = '';
-        tests.forEach(test => {
-            const testElement = document.createElement('div');
-            testElement.classList.add('test-item');
-            testElement.innerHTML = `
-                <h3>${test.title}</h3>
-                <button class="btn btn-primary" onclick="startTest('${test.id}')">Inizia Test</button>
-            `;
-            testContainer.appendChild(testElement);
+    const displayTests = (polls) => {
+        testList.innerHTML = '';
+        if (polls && polls.length > 0) {
+            polls.forEach(poll => {
+                const listItem = document.createElement('li');
+                listItem.classList.add('list-group-item');
+                listItem.innerHTML = `<a href="${poll.url}">${poll.title}</a>`;
+                testList.appendChild(listItem);
+            });
+        } else {
+            testList.innerHTML = '<li class="list-group-item">Nessun test disponibile.</li>';
+        }
+    };
+
+    const filterTests = () => {
+        const filter = searchInput.value.toLowerCase();
+        const items = testList.getElementsByTagName('li');
+        Array.from(items).forEach(item => {
+            const text = item.textContent.toLowerCase();
+            if (text.includes(filter)) {
+                item.style.display = '';
+            } else {
+                item.style.display = 'none';
+            }
         });
     };
 
-    const startTest = (testId) => {
-        window.location.href = `poll-v1.html?id=${testId}`;
-    };
+    searchInput.addEventListener('keyup', filterTests);
 
-    const searchTests = () => {
-        const query = searchInput.value.toLowerCase();
-        const testItems = document.querySelectorAll('.test-item');
-        testItems.forEach(item => {
-            const title = item.querySelector('h3').innerText.toLowerCase();
-            item.style.display = title.includes(query) ? 'block' : 'none';
-        });
-    };
-
-    searchButton.addEventListener('click', searchTests);
-    window.onload = loadTests;
-
-    return {
-        loadTests,
-        startTest,
-        searchTests
-    };
-})();
+    loadTests();
+});

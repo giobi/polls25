@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "v1",
   "title": "Sei Sith o Jedi",
   "description": "Un test per determinare se sei un Sith o un Jedi.",
   "questions": [
@@ -65,6 +65,20 @@
           "points": 2
         }
       ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 3,
+      "maxScore": 4,
+      "title": "Sei un Jedi",
+      "text": "La tua via è quella della pace e della conoscenza. Che la Forza sia con te."
+    },
+    {
+      "minScore": 5,
+      "maxScore": 6,
+      "title": "Sei un Sith",
+      "text": "Hai scelto il sentiero del potere e della passione. Il lato oscuro è potente in te."
     }
   ]
 }

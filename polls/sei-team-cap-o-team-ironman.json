@@ -1,59 +1,109 @@
 {
   "version": "v1",
   "title": "Sei Team Cap o Team Iron Man?",
+  "description": "Un test per determinare da che parte stai nel conflitto ideologico tra Captain America e Iron Man.",
   "questions": [
     {
-      "question": "Gli eroi dovrebbero essere registrati e controllati dal governo?",
+      "question": "Gli Accordi di Sokovia vengono proposti per regolamentare gli Avengers. Qual è la tua posizione?",
       "options": [
         {
-          "text": "No, devono essere liberi di agire",
+          "text": "Li firmo. È necessaria una supervisione per evitare catastrofi.",
+          "points": 2
+        },
+        {
+          "text": "Mi rifiuto. Le nostre azioni non possono essere dettate da un comitato politico.",
           "points": 1
         },
         {
-          "text": "Sì, per garantire la sicurezza pubblica",
+          "text": "Propongo emendamenti per garantire l'autonomia degli eroi pur avendo una supervisione.",
+          "points": 1
+        },
+        {
+          "text": "La burocrazia rallenta solo le decisioni. L'importante è agire, e in fretta.",
+          "points": 2
+        },
+        {
+          "text": "La questione è complessa, cerco di capire entrambe le posizioni prima di decidere.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "question": "Un tuo caro amico è accusato di un crimine, ma tu credi nella sua innocenza. Cosa fai?",
+      "options": [
+        {
+          "text": "Lo proteggo a tutti i costi, anche contro le autorità.",
+          "points": 1
+        },
+        {
+          "text": "Collaboro con le autorità per scoprire la verità, anche se significa consegnarlo.",
+          "points": 2
+        },
+        {
+          "text": "Indago per conto mio per trovare le prove che lo scagionino.",
+          "points": 1
+        },
+        {
+          "text": "Mi fido del sistema, ma gli offro il miglior supporto legale possibile.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Chi ha ragione in Civil War?",
+      "question": "Quale sacrificio è più accettabile per il bene superiore?",
       "options": [
         {
-          "text": "Captain America",
+          "text": "La libertà di pochi per garantire la sicurezza di molti.",
+          "points": 2
+        },
+        {
+          "text": "La vita di un innocente non può mai essere sacrificata, a nessun costo.",
           "points": 1
         },
         {
-          "text": "Iron Man",
+          "text": "Il sacrificio personale è nobile, ma imporlo agli altri è tirannia.",
+          "points": 1
+        },
+        {
+          "text": "A volte, decisioni difficili e perdite sono necessarie per un futuro migliore.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Quale approccio preferisci?",
+      "question": "Quale approccio ritieni più efficace per risolvere i conflitti?",
       "options": [
         {
-          "text": "Seguire i propri principi, anche contro la legge",
+          "text": "La diplomazia e la collaborazione internazionale, anche se lente.",
+          "points": 2
+        },
+        {
+          "text": "L'intervento diretto e deciso per fermare le ingiustizie.",
           "points": 1
         },
         {
-          "text": "Lavorare all'interno del sistema per migliorarlo",
+          "text": "La prevenzione attraverso la tecnologia e la sorveglianza.",
           "points": 2
+        },
+        {
+          "text": "L'ispirazione e l'esempio, mostrando agli altri una via migliore.",
+          "points": 1
         }
       ]
     }
   ],
   "results": [
     {
-      "minScore": 3,
-      "maxScore": 4,
+      "minScore": 4,
+      "maxScore": 6,
       "title": "Sei Team Cap",
-      "text": "Credi nella libertà individuale e nella responsabilità personale. Stai con Steve Rogers!"
+      "text": "Credi nella libertà individuale, nella lealtà e nel fare ciò che è giusto, anche se significa andare contro il sistema. Stai con Steve Rogers!"
     },
     {
-      "minScore": 5,
-      "maxScore": 6,
+      "minScore": 7,
+      "maxScore": 8,
       "title": "Sei Team Iron Man",
-      "text": "Credi nella responsabilità e nella supervisione. Stai con Tony Stark!"
+      "text": "Credi nella responsabilità, nella supervisione e nell'uso della tecnologia per proteggere il mondo. Stai con Tony Stark!"
     }
   ]
 }

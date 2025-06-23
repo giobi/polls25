@@ -5,27 +5,55 @@
     {
       "question": "Gli eroi dovrebbero essere registrati e controllati dal governo?",
       "options": [
-        {"text": "No, devono essere liberi di agire", "points": 1},
-        {"text": "Sì, per garantire la sicurezza pubblica", "points": 2}
+        {
+          "text": "No, devono essere liberi di agire",
+          "points": 1
+        },
+        {
+          "text": "Sì, per garantire la sicurezza pubblica",
+          "points": 2
+        }
       ]
     },
     {
       "question": "Chi ha ragione in Civil War?",
       "options": [
-        {"text": "Captain America", "points": 1},
-        {"text": "Iron Man", "points": 2}
+        {
+          "text": "Captain America",
+          "points": 1
+        },
+        {
+          "text": "Iron Man",
+          "points": 2
+        }
       ]
     },
     {
       "question": "Quale approccio preferisci?",
       "options": [
-        {"text": "Seguire i propri principi, anche contro la legge", "points": 1},
-        {"text": "Lavorare all'interno del sistema per migliorarlo", "points": 2}
+        {
+          "text": "Seguire i propri principi, anche contro la legge",
+          "points": 1
+        },
+        {
+          "text": "Lavorare all'interno del sistema per migliorarlo",
+          "points": 2
+        }
       ]
     }
   ],
   "results": [
-    {"minScore": 3, "maxScore": 4, "title": "Sei Team Cap", "text": "Credi nella libertà individuale e nella responsabilità personale. Stai con Steve Rogers!"},
-    {"minScore": 5, "maxScore": 6, "title": "Sei Team Iron Man", "text": "Credi nella responsabilità e nella supervisione. Stai con Tony Stark!"}
+    {
+      "minScore": 3,
+      "maxScore": 4,
+      "title": "Sei Team Cap",
+      "text": "Credi nella libertà individuale e nella responsabilità personale. Stai con Steve Rogers!"
+    },
+    {
+      "minScore": 5,
+      "maxScore": 6,
+      "title": "Sei Team Iron Man",
+      "text": "Credi nella responsabilità e nella supervisione. Stai con Tony Stark!"
+    }
   ]
 }

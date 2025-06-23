@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const testList = document.getElementById('test-list');
+    const testListContainer = document.getElementById('test-list-container');
     const searchInput = document.getElementById('search-input');
 
     const loadTests = async () => {
@@ -9,38 +9,44 @@ document.addEventListener('DOMContentLoaded', () => {
             displayTests(config.polls);
         } catch (error) {
             console.error('Error loading tests:', error);
-            testList.innerHTML = '<li class="list-group-item text-danger">Errore nel caricamento dei test.</li>';
+            if (testListContainer) {
+                testListContainer.innerHTML = '<p class="text-danger">Errore nel caricamento dei test.</p>';
+            }
         }
     };
 
     const displayTests = (polls) => {
-        testList.innerHTML = '';
+        if (!testListContainer) return;
+        testListContainer.innerHTML = '';
         if (polls && polls.length > 0) {
             polls.forEach(poll => {
-                const listItem = document.createElement('li');
-                listItem.classList.add('list-group-item');
-                listItem.innerHTML = `<a href="${poll.url}">${poll.title}</a>`;
-                testList.appendChild(listItem);
+                const card = document.createElement('a');
+                card.href = poll.url;
+                card.className = 'test-card';
+                card.textContent = poll.title;
+                testListContainer.appendChild(card);
             });
         } else {
-            testList.innerHTML = '<li class="list-group-item">Nessun test disponibile.</li>';
+            testListContainer.innerHTML = '<p>Nessun test disponibile.</p>';
         }
     };
 
     const filterTests = () => {
         const filter = searchInput.value.toLowerCase();
-        const items = testList.getElementsByTagName('li');
-        Array.from(items).forEach(item => {
-            const text = item.textContent.toLowerCase();
+        const cards = testListContainer.getElementsByClassName('test-card');
+        Array.from(cards).forEach(card => {
+            const text = card.textContent.toLowerCase();
             if (text.includes(filter)) {
-                item.style.display = '';
+                card.style.display = 'flex';
             } else {
-                item.style.display = 'none';
+                card.style.display = 'none';
             }
         });
     };
 
-    searchInput.addEventListener('keyup', filterTests);
+    if (searchInput) {
+        searchInput.addEventListener('keyup', filterTests);
+    }
 
     loadTests();
 });

@@ -1,67 +1,92 @@
 {
   "version": "v1",
-  "title": "Sei Sith o Jedi",
-  "description": "Un test per determinare se sei un Sith o un Jedi.",
+  "title": "Sei Sith o Jedi?",
+  "description": "Un test per determinare il tuo allineamento con la Forza.",
   "questions": [
     {
-      "question": "Qual è il tuo colore preferito?",
+      "question": "Un antico artefatto di immenso potere viene scoperto. Cosa fai?",
       "options": [
         {
-          "text": "Rosso",
+          "text": "Lo consegno al Consiglio Jedi per la custodia.",
+          "points": 1
+        },
+        {
+          "text": "Lo studio in segreto per carpirne i poteri.",
           "points": 2
         },
         {
-          "text": "Blu",
+          "text": "Lo distruggo per evitare che cada nelle mani sbagliate.",
           "points": 1
         },
         {
-          "text": "Verde",
-          "points": 1
+          "text": "Lo uso per portare ordine e stabilità nella galassia, con ogni mezzo.",
+          "points": 2
         },
         {
-          "text": "Nero",
+          "text": "Cerco di venderlo al miglior offerente.",
           "points": 2
         }
       ]
     },
     {
-      "question": "Come reagisci di fronte a una sfida?",
+      "question": "Quale emozione consideri più potente?",
       "options": [
         {
-          "text": "Affronto la sfida con determinazione.",
+          "text": "La serenità, che porta alla chiarezza.",
           "points": 1
         },
         {
-          "text": "Cerco di evitarla.",
+          "text": "La passione, che alimenta la determinazione.",
           "points": 2
         },
         {
-          "text": "La affronto con astuzia.",
+          "text": "La paura, un'arma da usare contro i nemici.",
           "points": 2
         },
         {
-          "text": "Collaboro con gli altri per superarla.",
+          "text": "La compassione, che unisce tutti gli esseri.",
           "points": 1
         }
       ]
     },
     {
-      "question": "Qual è il tuo obiettivo nella vita?",
+      "question": "Il tuo migliore amico tradisce i tuoi ideali. Come reagisci?",
       "options": [
         {
-          "text": "Acquisire potere.",
+          "text": "Cerco di capirne le ragioni e di riportarlo sulla retta via.",
+          "points": 1
+        },
+        {
+          "text": "Lo elimino. Il tradimento non può essere tollerato.",
           "points": 2
         },
         {
-          "text": "Aiutare gli altri.",
+          "text": "Lo vedo come un'opportunità per mettermi alla prova.",
+          "points": 2
+        },
+        {
+          "text": "Mi allontano, deluso e ferito.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "question": "Quale filosofia di combattimento preferisci?",
+      "options": [
+        {
+          "text": "La difesa pura, attendendo il momento giusto per colpire.",
           "points": 1
         },
         {
-          "text": "Cercare la verità.",
+          "text": "L'attacco aggressivo e implacabile per sopraffare l'avversario.",
+          "points": 2
+        },
+        {
+          "text": "L'uso dell'ambiente e dell'astuzia a mio vantaggio.",
           "points": 1
         },
         {
-          "text": "Dominare il mondo.",
+          "text": "La manipolazione psicologica per destabilizzare il nemico.",
           "points": 2
         }
       ]
@@ -69,16 +94,16 @@
   ],
   "results": [
     {
-      "minScore": 3,
-      "maxScore": 4,
+      "minScore": 4,
+      "maxScore": 6,
       "title": "Sei un Jedi",
-      "text": "La tua via è quella della pace e della conoscenza. Che la Forza sia con te."
+      "text": "La tua via è quella della pace, della conoscenza e della difesa degli innocenti. Segui il lato chiaro della Forza."
     },
     {
-      "minScore": 5,
-      "maxScore": 6,
+      "minScore": 7,
+      "maxScore": 8,
       "title": "Sei un Sith",
-      "text": "Hai scelto il sentiero del potere e della passione. Il lato oscuro è potente in te."
+      "text": "Hai scelto il sentiero del potere, della passione e dell'ambizione. Il lato oscuro è potente in te."
     }
   ]
 }

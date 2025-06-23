@@ -5,27 +5,55 @@
     {
       "question": "Cosa rappresenta per te la galassia?",
       "options": [
-        {"text": "Un luogo di libertà e speranza", "points": 1},
-        {"text": "Un sistema che necessita di ordine e controllo", "points": 2}
+        {
+          "text": "Un luogo di libertà e speranza",
+          "points": 1
+        },
+        {
+          "text": "Un sistema che necessita di ordine e controllo",
+          "points": 2
+        }
       ]
     },
     {
       "question": "Quale nave preferisci?",
       "options": [
-        {"text": "Un agile X-Wing", "points": 1},
-        {"text": "Un imponente Star Destroyer", "points": 2}
+        {
+          "text": "Un agile X-Wing",
+          "points": 1
+        },
+        {
+          "text": "Un imponente Star Destroyer",
+          "points": 2
+        }
       ]
     },
     {
       "question": "Come ottieni ciò che vuoi?",
       "options": [
-        {"text": "Con la diplomazia e il coraggio", "points": 1},
-        {"text": "Con la forza e la determinazione", "points": 2}
+        {
+          "text": "Con la diplomazia e il coraggio",
+          "points": 1
+        },
+        {
+          "text": "Con la forza e la determinazione",
+          "points": 2
+        }
       ]
     }
   ],
   "results": [
-    {"minScore": 3, "maxScore": 4, "title": "Sei un Ribelle", "text": "Combatti per la libertà e la giustizia nella galassia. Che la Forza sia con te!"},
-    {"minScore": 5, "maxScore": 6, "title": "Sei un Imperiale", "text": "Credi nell'ordine e nella stabilità. L'Impero garantirà la pace attraverso il potere."}
+    {
+      "minScore": 3,
+      "maxScore": 4,
+      "title": "Sei un Ribelle",
+      "text": "Combatti per la libertà e la giustizia nella galassia. Che la Forza sia con te!"
+    },
+    {
+      "minScore": 5,
+      "maxScore": 6,
+      "title": "Sei un Imperiale",
+      "text": "Credi nell'ordine e nella stabilità. L'Impero garantirà la pace attraverso il potere."
+    }
   ]
 }

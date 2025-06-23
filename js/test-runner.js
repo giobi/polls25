@@ -3,11 +3,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const pollTitle = document.getElementById('poll-title');
     const pollQuestions = document.getElementById('poll-questions');
-    const submitButton = document.getElementById('submit-button');
-    const pollResult = document.getElementById('poll-result');
 
     let currentQuestionIndex = 0;
-    let score = 0;
+    let userAnswers = [];
     let pollData;
 
     const loadTestData = async () => {
@@ -30,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (pageVersion !== pollData.version) {
                 pollQuestions.innerHTML = `<p class="text-danger">Versione del sondaggio non corrispondente. Pagina richiesta: ${pageVersion}, versione sondaggio: ${pollData.version}.</p>`;
-                submitButton.style.display = 'none';
                 return;
             }
 
@@ -39,76 +36,58 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Errore durante il caricamento del test:', error);
             pollQuestions.innerHTML = '<p class="text-danger">Impossibile caricare il test.</p>';
-            submitButton.style.display = 'none';
         }
     };
 
     const displayQuestion = () => {
-        if (currentQuestionIndex < pollData.questions.length) {
+        if (pollData && currentQuestionIndex < pollData.questions.length) {
             const question = pollData.questions[currentQuestionIndex];
-            let optionsHtml = '';
-            question.options.forEach((option, index) => {
-                optionsHtml += `
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="option" id="option${index}" value="${option.points}">
-                        <label class="form-check-label" for="option${index}">
-                            ${option.text}
-                        </label>
-                    </div>
-                `;
-            });
 
-            pollQuestions.innerHTML = `
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">${question.question}</h5>
-                        ${optionsHtml}
+            const questionHtml = `
+                <div class="question-card">
+                    <h5 class="card-title">${question.question}</h5>
+                    <div class="options-container">
+                        ${question.options.map(option => `
+                            <div class="option-card" data-points="${option.points}">
+                                ${option.text}
+                            </div>
+                        `).join('')}
                     </div>
                 </div>
             `;
-            submitButton.textContent = 'Prossima Domanda';
+
+            pollQuestions.innerHTML = questionHtml;
+
+            document.querySelectorAll('.option-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const points = parseInt(card.dataset.points, 10);
+                    userAnswers.push(points);
+                    currentQuestionIndex++;
+                    displayQuestion();
+                });
+            });
         } else {
             calculateResult();
         }
     };
 
     const calculateResult = () => {
-        const result = pollData.results.find(r => score >= r.minScore && score <= r.maxScore);
+        const totalScore = userAnswers.reduce((sum, points) => sum + points, 0);
+        const result = pollData.results.find(r => totalScore >= r.minScore && totalScore <= r.maxScore);
+
         pollTitle.textContent = 'Risultato del Test';
         if (result) {
             pollQuestions.innerHTML = `
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">${result.title}</h5>
-                        <p class="card-text">${result.text}</p>
-                    </div>
+                <div class="result-card">
+                    <h5 class="card-title">${result.title}</h5>
+                    <p class="card-text">${result.text}</p>
+                    <a href="index.html" class="btn btn-primary mt-3">Torna alla Home</a>
                 </div>
             `;
         } else {
-            pollQuestions.innerHTML = `<p>Non è stato possibile calcolare il risultato per il punteggio: ${score}.</p>`;
+            pollQuestions.innerHTML = `<div class="result-card"><p>Non è stato possibile calcolare il risultato.</p></div>`;
         }
-        submitButton.style.display = 'none';
     };
-
-    const handleSubmit = () => {
-        const selectedOption = document.querySelector('input[name="option"]:checked');
-        if (!selectedOption) {
-            if (!document.getElementById('no-answer-alert')) {
-                const alertDiv = document.createElement('div');
-                alertDiv.id = 'no-answer-alert';
-                alertDiv.className = 'alert alert-warning mt-2';
-                alertDiv.textContent = 'Per favore, seleziona una risposta.';
-                pollQuestions.querySelector('.card-body').appendChild(alertDiv);
-            }
-            return;
-        }
-
-        score += parseInt(selectedOption.value, 10);
-        currentQuestionIndex++;
-        displayQuestion();
-    };
-
-    submitButton.addEventListener('click', handleSubmit);
 
     loadTestData();
 });

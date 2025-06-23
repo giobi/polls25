@@ -14,16 +14,15 @@
         <header class="my-4">
             <h1 class="text-center">Benvenuto nella Piattaforma di Test</h1>
         </header>
-        <section>
-            <h2>Test Disponibili</h2>
-            <ul id="test-list" class="list-group">
-                <li class="list-group-item"><a href="poll-v1.html?poll=sei-sith-o-jedi">Sei Sith o Jedi?</a></li>
-                <!-- Altri test verranno aggiunti qui dinamicamente -->
-            </ul>
-        </section>
-        <section class="my-4">
+        <section class="mb-4">
             <h2>Cerca un Test</h2>
             <input type="text" id="search-input" class="form-control" placeholder="Cerca test...">
+        </section>
+        <section>
+            <h2>Test Disponibili</h2>
+            <div id="test-list-container">
+                <!-- I test verranno aggiunti qui dinamicamente -->
+            </div>
         </section>
     </div>
     <script src="js/app.js"></script>

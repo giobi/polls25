@@ -1,0 +1,337 @@
+{
+    "version": 2,
+    "title": "Che tipo di mangiatore sei?",
+    "description": "Scopri il tuo profilo alimentare in base alle tue preferenze culinarie",
+    "skills": {
+        "fat": "Grassi",
+        "carbs": "Carboidrati",
+        "protein": "Proteine",
+        "fiber": "Fibre",
+        "sugar": "Zuccheri"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Ti piace di più mangiare:",
+            "answers": [
+                {
+                    "text": "Gelato",
+                    "values": {
+                        "fat": 5,
+                        "carbs": 10,
+                        "protein": 1,
+                        "fiber": 0,
+                        "sugar": 8
+                    }
+                },
+                {
+                    "text": "Pizza",
+                    "values": {
+                        "fat": 3,
+                        "carbs": 8,
+                        "protein": 4,
+                        "fiber": 2,
+                        "sugar": 1
+                    }
+                },
+                {
+                    "text": "Insalata",
+                    "values": {
+                        "fat": 1,
+                        "carbs": 2,
+                        "protein": 2,
+                        "fiber": 8,
+                        "sugar": 1
+                    }
+                },
+                {
+                    "text": "Bistecca",
+                    "values": {
+                        "fat": 4,
+                        "carbs": 0,
+                        "protein": 10,
+                        "fiber": 0,
+                        "sugar": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "A colazione preferisci:",
+            "answers": [
+                {
+                    "text": "Cornetto e cappuccino",
+                    "values": {
+                        "fat": 4,
+                        "carbs": 9,
+                        "protein": 3,
+                        "fiber": 1,
+                        "sugar": 6
+                    }
+                },
+                {
+                    "text": "Yogurt e cereali",
+                    "values": {
+                        "fat": 2,
+                        "carbs": 6,
+                        "protein": 5,
+                        "fiber": 4,
+                        "sugar": 3
+                    }
+                },
+                {
+                    "text": "Uova e bacon",
+                    "values": {
+                        "fat": 8,
+                        "carbs": 1,
+                        "protein": 8,
+                        "fiber": 0,
+                        "sugar": 0
+                    }
+                },
+                {
+                    "text": "Frutta fresca",
+                    "values": {
+                        "fat": 0,
+                        "carbs": 4,
+                        "protein": 1,
+                        "fiber": 6,
+                        "sugar": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Il tuo spuntino ideale è:",
+            "answers": [
+                {
+                    "text": "Patatine",
+                    "values": {
+                        "fat": 6,
+                        "carbs": 7,
+                        "protein": 1,
+                        "fiber": 1,
+                        "sugar": 0
+                    }
+                },
+                {
+                    "text": "Noci e mandorle",
+                    "values": {
+                        "fat": 7,
+                        "carbs": 2,
+                        "protein": 6,
+                        "fiber": 3,
+                        "sugar": 1
+                    }
+                },
+                {
+                    "text": "Biscotti",
+                    "values": {
+                        "fat": 3,
+                        "carbs": 8,
+                        "protein": 2,
+                        "fiber": 1,
+                        "sugar": 7
+                    }
+                },
+                {
+                    "text": "Carote crude",
+                    "values": {
+                        "fat": 0,
+                        "carbs": 2,
+                        "protein": 1,
+                        "fiber": 5,
+                        "sugar": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "Quando cucini a casa prepari:",
+            "answers": [
+                {
+                    "text": "Pasta al sugo",
+                    "values": {
+                        "fat": 2,
+                        "carbs": 12,
+                        "protein": 4,
+                        "fiber": 2,
+                        "sugar": 2
+                    }
+                },
+                {
+                    "text": "Pesce al vapore con verdure",
+                    "values": {
+                        "fat": 2,
+                        "carbs": 3,
+                        "protein": 8,
+                        "fiber": 6,
+                        "sugar": 1
+                    }
+                },
+                {
+                    "text": "Hamburger con patatine",
+                    "values": {
+                        "fat": 8,
+                        "carbs": 10,
+                        "protein": 6,
+                        "fiber": 2,
+                        "sugar": 1
+                    }
+                },
+                {
+                    "text": "Minestrone di verdure",
+                    "values": {
+                        "fat": 1,
+                        "carbs": 4,
+                        "protein": 3,
+                        "fiber": 8,
+                        "sugar": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Il tuo dessert preferito:",
+            "answers": [
+                {
+                    "text": "Tiramisù",
+                    "values": {
+                        "fat": 6,
+                        "carbs": 8,
+                        "protein": 3,
+                        "fiber": 0,
+                        "sugar": 9
+                    }
+                },
+                {
+                    "text": "Macedonia di frutta",
+                    "values": {
+                        "fat": 0,
+                        "carbs": 5,
+                        "protein": 1,
+                        "fiber": 4,
+                        "sugar": 5
+                    }
+                },
+                {
+                    "text": "Cheesecake",
+                    "values": {
+                        "fat": 8,
+                        "carbs": 6,
+                        "protein": 4,
+                        "fiber": 0,
+                        "sugar": 10
+                    }
+                },
+                {
+                    "text": "Yogurt greco senza zucchero",
+                    "values": {
+                        "fat": 3,
+                        "carbs": 2,
+                        "protein": 6,
+                        "fiber": 0,
+                        "sugar": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "profiles": [
+        {
+            "id": "health-guru",
+            "name": "Guru della Salute",
+            "description": "Sei un vero esempio di alimentazione sana! Privilegi sempre cibi ricchi di fibre e proteine, limitando grassi e zuccheri. Il tuo corpo ti ringrazia!",
+            "requirements": {
+                "fat": {
+                    "min": 0,
+                    "max": 15
+                },
+                "protein": {
+                    "min": 20,
+                    "max": 50
+                },
+                "fiber": {
+                    "min": 15,
+                    "max": 50
+                },
+                "sugar": {
+                    "min": 0,
+                    "max": 10
+                }
+            }
+        },
+        {
+            "id": "balanced-eater",
+            "name": "Mangiatore Equilibrato",
+            "description": "Hai un approccio bilanciato al cibo. Sai goderti i piaceri della tavola senza esagerare, mantenendo un buon equilibrio nutrizionale.",
+            "requirements": {
+                "fat": {
+                    "min": 10,
+                    "max": 25
+                },
+                "carbs": {
+                    "min": 15,
+                    "max": 35
+                },
+                "protein": {
+                    "min": 15,
+                    "max": 30
+                },
+                "fiber": {
+                    "min": 8,
+                    "max": 20
+                }
+            }
+        },
+        {
+            "id": "protein-lover",
+            "name": "Amante delle Proteine",
+            "description": "Le proteine sono la tua passione! Prediligi carne, pesce e latticini. Attenzione a non trascurare le fibre e le verdure.",
+            "requirements": {
+                "protein": {
+                    "min": 25,
+                    "max": 50
+                },
+                "fat": {
+                    "min": 15,
+                    "max": 40
+                }
+            }
+        },
+        {
+            "id": "carb-enthusiast",
+            "name": "Appassionato di Carboidrati",
+            "description": "Pasta, pizza, dolci... i carboidrati sono la tua debolezza! Ti piace goderti la vita, ma ricorda di bilanciare con un po' di movimento.",
+            "requirements": {
+                "carbs": {
+                    "min": 30,
+                    "max": 60
+                },
+                "sugar": {
+                    "min": 15,
+                    "max": 50
+                }
+            }
+        },
+        {
+            "id": "indulgent-foodie",
+            "name": "Buongustaio Goloso",
+            "description": "Per te il cibo è puro piacere! Non ti fai problemi a concederti qualche sfizio di troppo. La vita è troppo breve per rinunciare ai dolci!",
+            "requirements": {
+                "fat": {
+                    "min": 20,
+                    "max": 50
+                },
+                "sugar": {
+                    "min": 20,
+                    "max": 50
+                }
+            }
+        }
+    ]
+}

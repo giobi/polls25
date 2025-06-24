@@ -3,32 +3,45 @@
         {
             "id": "sei-sith-o-jedi",
             "title": "Sei Sith o Jedi?",
-            "url": "poll-v1.html?poll=sei-sith-o-jedi"
+            "url": "poll-v1.html?poll=sei-sith-o-jedi",
+            "version": 1
         },
         {
             "id": "sei-hobbit-o-mago",
             "title": "Sei un Hobbit o un Mago?",
-            "url": "poll-v1.html?poll=sei-hobbit-o-mago"
+            "url": "poll-v1.html?poll=sei-hobbit-o-mago",
+            "version": 1
         },
         {
             "id": "sei-lealista-o-traditore",
             "title": "Sei Lealista o Traditore?",
-            "url": "poll-v1.html?poll=sei-lealista-o-traditore"
+            "url": "poll-v1.html?poll=sei-lealista-o-traditore",
+            "version": 1
         },
         {
             "id": "sei-ribelle-o-imperiale",
             "title": "Sei Ribelle o Imperiale?",
-            "url": "poll-v1.html?poll=sei-ribelle-o-imperiale"
+            "url": "poll-v1.html?poll=sei-ribelle-o-imperiale",
+            "version": 1
         },
         {
             "id": "sei-grifondoro-o-serpeverde",
             "title": "Sei Grifondoro o Serpeverde?",
-            "url": "poll-v1.html?poll=sei-grifondoro-o-serpeverde"
+            "url": "poll-v1.html?poll=sei-grifondoro-o-serpeverde",
+            "version": 1
         },
         {
             "id": "sei-team-cap-o-team-ironman",
             "title": "Sei Team Cap o Team Iron Man?",
-            "url": "poll-v1.html?poll=sei-team-cap-o-team-ironman"
+            "url": "poll-v1.html?poll=sei-team-cap-o-team-ironman",
+            "version": 1
+        },
+        {
+            "id": "che-tipo-di-mangiatore-sei",
+            "title": "Che tipo di mangiatore sei?",
+            "url": "poll-v2.html?poll=che-tipo-di-mangiatore-sei",
+            "version": 2,
+            "description": "Scopri il tuo profilo alimentare con il nostro sistema avanzato di skill multiple!"
         }
     ]
 }

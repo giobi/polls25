@@ -1,79 +1,89 @@
 {
-  "version": "2.0",
-  "title": "Test di esempio versione 2",
-  "description": "Questo è un template per la versione 2 del test.",
+  "version": 2,
+  "title": "Template Versione 2 - Sistema Skill",
+  "description": "Template di esempio per la versione 2 con sistema di skill multiple e profili basati su range di valori",
+  "skills": {
+    "skill1": "Prima Skill",
+    "skill2": "Seconda Skill",
+    "skill3": "Terza Skill"
+  },
   "questions": [
     {
       "id": 1,
-      "question": "Qual è il tuo colore preferito?",
-      "options": [
+      "text": "Domanda di esempio:",
+      "answers": [
         {
-          "text": "Blu",
-          "points": 5
+          "text": "Prima opzione",
+          "values": {
+            "skill1": 5,
+            "skill2": 2,
+            "skill3": 1
+          }
         },
         {
-          "text": "Rosso",
-          "points": 3
+          "text": "Seconda opzione",
+          "values": {
+            "skill1": 2,
+            "skill2": 5,
+            "skill3": 3
+          }
         },
         {
-          "text": "Verde",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "question": "Quale animale ti rappresenta di più?",
-      "options": [
-        {
-          "text": "Aquila",
-          "points": 5
-        },
-        {
-          "text": "Lupo",
-          "points": 3
-        },
-        {
-          "text": "Gatto",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "question": "Sei più incline a:",
-      "options": [
-        {
-          "text": "Prendere rischi",
-          "points": 5
-        },
-        {
-          "text": "Essere cauto",
-          "points": 3
-        },
-        {
-          "text": "Essere indifferente",
-          "points": 1
+          "text": "Terza opzione",
+          "values": {
+            "skill1": 1,
+            "skill2": 3,
+            "skill3": 5
+          }
         }
       ]
     }
   ],
-  "scoring": {
-    "minPoints": 3,
-    "maxPoints": 15,
-    "profiles": [
-      {
-        "name": "Jedi",
-        "description": "Sei un Jedi, un guardiano della pace."
-      },
-      {
-        "name": "Sith",
-        "description": "Sei un Sith, in cerca di potere."
-      },
-      {
-        "name": "Neutro",
-        "description": "Sei neutro, non inclini a nessuna parte."
+  "profiles": [
+    {
+      "id": "profile-restrictive",
+      "name": "Profilo Restrittivo",
+      "description": "Profilo con criteri molto specifici - viene valutato per primo",
+      "requirements": {
+        "skill1": {
+          "min": 8,
+          "max": 10
+        },
+        "skill2": {
+          "min": 0,
+          "max": 3
+        },
+        "skill3": {
+          "min": 4,
+          "max": 6
+        }
       }
-    ]
-  }
+    },
+    {
+      "id": "profile-moderate",
+      "name": "Profilo Moderato",
+      "description": "Profilo con criteri medi",
+      "requirements": {
+        "skill1": {
+          "min": 4,
+          "max": 8
+        },
+        "skill2": {
+          "min": 3,
+          "max": 7
+        }
+      }
+    },
+    {
+      "id": "profile-general",
+      "name": "Profilo Generale",
+      "description": "Profilo generico - viene valutato per ultimo",
+      "requirements": {
+        "skill1": {
+          "min": 0,
+          "max": 50
+        }
+      }
+    }
+  ]
 }

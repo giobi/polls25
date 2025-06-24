@@ -42,7 +42,7 @@ h2 {
 }
 
 .test-card-container {
-    background-color: #3a3a3a;
+    background-color: #ffffff;
     border: 1px solid #4a4a4a;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -55,7 +55,7 @@ h2 {
 
 .test-card-container .card-body {
     background-color: transparent;
-    color: #f0f0f0;
+    color: #333333;
 }
 
 .test-card-container .card-title {
@@ -65,7 +65,7 @@ h2 {
 }
 
 .test-card-container .card-text {
-    color: #e0e0e0;
+    color: #666666;
     font-size: 0.9rem;
 }
 

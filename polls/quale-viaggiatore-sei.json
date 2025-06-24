@@ -1,0 +1,206 @@
+{
+  "version": 2,
+  "title": "Quale viaggiatore sei?",
+  "description": "Scopri il tuo stile di viaggio e le tue preferenze da esploratore",
+  "skills": {
+    "adventure": "Avventura",
+    "comfort": "Comfort",
+    "budget": "Risparmio",
+    "culture": "Cultura",
+    "nature": "Natura"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "La tua vacanza ideale è:",
+      "answers": [
+        {
+          "text": "Trekking in montagna con zaino e tenda",
+          "values": { "adventure": 10, "comfort": 1, "budget": 8, "culture": 3, "nature": 10 }
+        },
+        {
+          "text": "Resort 5 stelle con spa e piscina",
+          "values": { "adventure": 1, "comfort": 10, "budget": 2, "culture": 3, "nature": 4 }
+        },
+        {
+          "text": "Tour dei musei nelle capitali europee",
+          "values": { "adventure": 4, "comfort": 6, "budget": 5, "culture": 10, "nature": 2 }
+        },
+        {
+          "text": "Safari fotografico in Africa",
+          "values": { "adventure": 8, "comfort": 4, "budget": 4, "culture": 6, "nature": 9 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Come preferisci spostarti in viaggio?",
+      "answers": [
+        {
+          "text": "A piedi o in bicicletta",
+          "values": { "adventure": 9, "comfort": 2, "budget": 9, "culture": 5, "nature": 8 }
+        },
+        {
+          "text": "Auto di lusso o transfer privato",
+          "values": { "adventure": 2, "comfort": 10, "budget": 1, "culture": 4, "nature": 3 }
+        },
+        {
+          "text": "Treni locali e mezzi pubblici",
+          "values": { "adventure": 6, "comfort": 4, "budget": 8, "culture": 8, "nature": 4 }
+        },
+        {
+          "text": "Fuoristrada per luoghi selvaggi",
+          "values": { "adventure": 9, "comfort": 3, "budget": 5, "culture": 4, "nature": 9 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Dove dormi durante i viaggi?",
+      "answers": [
+        {
+          "text": "Tenda o rifugio di montagna",
+          "values": { "adventure": 10, "comfort": 1, "budget": 10, "culture": 2, "nature": 10 }
+        },
+        {
+          "text": "Hotel di lusso con servizio in camera",
+          "values": { "adventure": 1, "comfort": 10, "budget": 1, "culture": 4, "nature": 2 }
+        },
+        {
+          "text": "Ostelli e pensioni caratteristiche",
+          "values": { "adventure": 5, "comfort": 3, "budget": 9, "culture": 8, "nature": 4 }
+        },
+        {
+          "text": "Lodge in mezzo alla natura",
+          "values": { "adventure": 7, "comfort": 6, "budget": 4, "culture": 3, "nature": 9 }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Cosa fai quando arrivi in una nuova città?",
+      "answers": [
+        {
+          "text": "Cerco i sentieri più estremi nei dintorni",
+          "values": { "adventure": 10, "comfort": 2, "budget": 6, "culture": 3, "nature": 9 }
+        },
+        {
+          "text": "Prenoto spa e ristoranti stellati",
+          "values": { "adventure": 1, "comfort": 10, "budget": 2, "culture": 5, "nature": 1 }
+        },
+        {
+          "text": "Visito musei e monumenti storici",
+          "values": { "adventure": 3, "comfort": 5, "budget": 6, "culture": 10, "nature": 2 }
+        },
+        {
+          "text": "Esploro i parchi e le riserve naturali",
+          "values": { "adventure": 6, "comfort": 4, "budget": 7, "culture": 4, "nature": 10 }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Il tuo cibo da viaggio preferito:",
+      "answers": [
+        {
+          "text": "Cibo liofilizzato e barrette energetiche",
+          "values": { "adventure": 9, "comfort": 1, "budget": 8, "culture": 1, "nature": 7 }
+        },
+        {
+          "text": "Cene gourmet e vini pregiati",
+          "values": { "adventure": 1, "comfort": 10, "budget": 1, "culture": 7, "nature": 2 }
+        },
+        {
+          "text": "Street food e specialità locali",
+          "values": { "adventure": 6, "comfort": 4, "budget": 8, "culture": 10, "nature": 3 }
+        },
+        {
+          "text": "Pic-nic con prodotti del territorio",
+          "values": { "adventure": 5, "comfort": 6, "budget": 7, "culture": 6, "nature": 8 }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Come pianifichi i tuoi viaggi?",
+      "answers": [
+        {
+          "text": "Zaino e via, improvviso tutto",
+          "values": { "adventure": 10, "comfort": 2, "budget": 7, "culture": 4, "nature": 6 }
+        },
+        {
+          "text": "Agenzia di viaggio per tutto organizzato",
+          "values": { "adventure": 1, "comfort": 10, "budget": 3, "culture": 5, "nature": 3 }
+        },
+        {
+          "text": "Studio guide e mappe storiche",
+          "values": { "adventure": 4, "comfort": 5, "budget": 6, "culture": 10, "nature": 4 }
+        },
+        {
+          "text": "Cerco i luoghi più selvaggi e incontaminati",
+          "values": { "adventure": 8, "comfort": 3, "budget": 6, "culture": 3, "nature": 10 }
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "esploratore-estremo",
+      "name": "Esploratore Estremo",
+      "description": "Sei un vero avventuriero! Ami le sfide estreme e i luoghi incontaminati. Per te viaggiare significa uscire dalla zona di comfort e vivere esperienze che cambiano la vita. Himalaya o Antartide? Sei pronto!",
+      "requirements": {
+        "adventure": { "min": 45, "max": 60 },
+        "comfort": { "min": 0, "max": 20 },
+        "nature": { "min": 35, "max": 60 }
+      }
+    },
+    {
+      "id": "culturologo",
+      "name": "Culturologo",
+      "description": "Sei un esperto di culture e tradizioni! Ogni viaggio è un'opportunità per imparare e scoprire la storia dei luoghi. Musei, siti archeologici e tradizioni locali sono la tua passione.",
+      "requirements": {
+        "culture": { "min": 45, "max": 60 },
+        "budget": { "min": 20, "max": 45 },
+        "comfort": { "min": 15, "max": 40 }
+      }
+    },
+    {
+      "id": "eco-warrior",
+      "name": "Eco-Warrior",
+      "description": "La natura è la tua casa! Ami i viaggi sostenibili e responsabili. Preferisci campeggiare sotto le stelle che dormire in hotel. Ogni viaggio è un'occasione per connetterti con l'ambiente.",
+      "requirements": {
+        "nature": { "min": 45, "max": 60 },
+        "adventure": { "min": 30, "max": 60 },
+        "comfort": { "min": 0, "max": 25 }
+      }
+    },
+    {
+      "id": "viaggiatore-lusso",
+      "name": "Viaggiatore di Lusso",
+      "description": "Per te viaggiare è sinonimo di comfort e qualità! Ami goderti la vita e non rinunci mai al meglio. Hotel di lusso, spa e ristoranti stellati sono il tuo standard.",
+      "requirements": {
+        "comfort": { "min": 45, "max": 60 },
+        "budget": { "min": 0, "max": 20 },
+        "adventure": { "min": 0, "max": 20 }
+      }
+    },
+    {
+      "id": "backpacker",
+      "name": "Backpacker",
+      "description": "Sei l'anima libera del viaggio! Con poco budget riesci a vivere esperienze incredibili. Zaino in spalla, biglietti last minute e tanta voglia di scoprire il mondo senza spendere una fortuna.",
+      "requirements": {
+        "budget": { "min": 40, "max": 60 },
+        "adventure": { "min": 30, "max": 60 },
+        "comfort": { "min": 0, "max": 30 }
+      }
+    },
+    {
+      "id": "turista-equilibrato",
+      "name": "Turista Equilibrato",
+      "description": "Hai un approccio bilanciato al viaggio! Sai goderti sia l'avventura che il relax, apprezzando culture diverse senza rinunciare completamente al comfort. La tua versatilità ti permette di adattarti a ogni situazione!",
+      "requirements": {
+        "adventure": { "min": 0, "max": 60 }
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "version": 2,
+  "title": "Qual è il tuo orientamento politico-economico?",
+  "description": "Scopri la tua posizione nel panorama politico ed economico attraverso le tue opinioni",
+  "skills": {
+    "libertarian": "Libertarismo",
+    "authoritarian": "Autoritarismo",
+    "lefteconomy": "Sinistra Economica",
+    "righteconomy": "Destra Economica",
+    "progressive": "Progressismo"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Come dovrebbe funzionare l'economia?",
+      "answers": [
+        {
+          "text": "Libero mercato senza intervento statale",
+          "values": { "libertarian": 8, "authoritarian": 2, "lefteconomy": 1, "righteconomy": 10, "progressive": 4 }
+        },
+        {
+          "text": "Economia pianificata dallo stato",
+          "values": { "libertarian": 1, "authoritarian": 9, "lefteconomy": 10, "righteconomy": 2, "progressive": 5 }
+        },
+        {
+          "text": "Economia mista con welfare state",
+          "values": { "libertarian": 4, "authoritarian": 5, "lefteconomy": 7, "righteconomy": 4, "progressive": 8 }
+        },
+        {
+          "text": "Capitalismo regolamentato",
+          "values": { "libertarian": 5, "authoritarian": 4, "lefteconomy": 3, "righteconomy": 7, "progressive": 6 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Qual è il ruolo ideale dello stato?",
+      "answers": [
+        {
+          "text": "Minimo indispensabile (sicurezza e giustizia)",
+          "values": { "libertarian": 10, "authoritarian": 3, "lefteconomy": 2, "righteconomy": 8, "progressive": 3 }
+        },
+        {
+          "text": "Controllo totale della società",
+          "values": { "libertarian": 1, "authoritarian": 10, "lefteconomy": 6, "righteconomy": 4, "progressive": 2 }
+        },
+        {
+          "text": "Garante dei diritti e servizi sociali",
+          "values": { "libertarian": 4, "authoritarian": 5, "lefteconomy": 8, "righteconomy": 3, "progressive": 9 }
+        },
+        {
+          "text": "Protettore della tradizione e ordine",
+          "values": { "libertarian": 3, "authoritarian": 7, "lefteconomy": 3, "righteconomy": 6, "progressive": 1 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Cosa pensi delle tasse?",
+      "answers": [
+        {
+          "text": "Dovrebbero essere abolite o ridotte al minimo",
+          "values": { "libertarian": 10, "authoritarian": 2, "lefteconomy": 1, "righteconomy": 9, "progressive": 2 }
+        },
+        {
+          "text": "Tassazione progressiva per ridurre le disuguaglianze",
+          "values": { "libertarian": 3, "authoritarian": 5, "lefteconomy": 10, "righteconomy": 2, "progressive": 8 }
+        },
+        {
+          "text": "Tasse moderate per finanziare servizi pubblici",
+          "values": { "libertarian": 5, "authoritarian": 4, "lefteconomy": 6, "righteconomy": 5, "progressive": 7 }
+        },
+        {
+          "text": "Lo stato decide come e quanto tassare",
+          "values": { "libertarian": 1, "authoritarian": 9, "lefteconomy": 7, "righteconomy": 3, "progressive": 4 }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Sui diritti civili la tua posizione è:",
+      "answers": [
+        {
+          "text": "Massima libertà individuale",
+          "values": { "libertarian": 10, "authoritarian": 1, "lefteconomy": 5, "righteconomy": 5, "progressive": 9 }
+        },
+        {
+          "text": "I diritti devono rispettare la tradizione",
+          "values": { "libertarian": 3, "authoritarian": 6, "lefteconomy": 3, "righteconomy": 7, "progressive": 2 }
+        },
+        {
+          "text": "Uguaglianza e inclusione per tutti",
+          "values": { "libertarian": 6, "authoritarian": 3, "lefteconomy": 8, "righteconomy": 3, "progressive": 10 }
+        },
+        {
+          "text": "Lo stato decide quali diritti concedere",
+          "values": { "libertarian": 1, "authoritarian": 10, "lefteconomy": 5, "righteconomy": 5, "progressive": 3 }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Sul sistema sanitario:",
+      "answers": [
+        {
+          "text": "Completamente privato e a pagamento",
+          "values": { "libertarian": 9, "authoritarian": 3, "lefteconomy": 1, "righteconomy": 10, "progressive": 2 }
+        },
+        {
+          "text": "Sanità pubblica universale e gratuita",
+          "values": { "libertarian": 2, "authoritarian": 6, "lefteconomy": 10, "righteconomy": 1, "progressive": 8 }
+        },
+        {
+          "text": "Sistema misto pubblico-privato",
+          "values": { "libertarian": 5, "authoritarian": 4, "lefteconomy": 5, "righteconomy": 6, "progressive": 6 }
+        },
+        {
+          "text": "Lo stato controlla tutto il sistema sanitario",
+          "values": { "libertarian": 1, "authoritarian": 10, "lefteconomy": 7, "righteconomy": 3, "progressive": 4 }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Sull'immigrazione:",
+      "answers": [
+        {
+          "text": "Frontiere aperte, libera circolazione",
+          "values": { "libertarian": 8, "authoritarian": 1, "lefteconomy": 7, "righteconomy": 4, "progressive": 10 }
+        },
+        {
+          "text": "Controlli rigidi e immigrazione limitata",
+          "values": { "libertarian": 3, "authoritarian": 8, "lefteconomy": 3, "righteconomy": 7, "progressive": 2 }
+        },
+        {
+          "text": "Integrazione e politiche inclusive",
+          "values": { "libertarian": 5, "authoritarian": 4, "lefteconomy": 8, "righteconomy": 3, "progressive": 9 }
+        },
+        {
+          "text": "Lo stato decide chi può entrare",
+          "values": { "libertarian": 2, "authoritarian": 9, "lefteconomy": 5, "righteconomy": 6, "progressive": 3 }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Sul cambiamento climatico:",
+      "answers": [
+        {
+          "text": "Il mercato troverà soluzioni senza interventi",
+          "values": { "libertarian": 9, "authoritarian": 3, "lefteconomy": 2, "righteconomy": 8, "progressive": 3 }
+        },
+        {
+          "text": "Serve una rivoluzione del sistema economico",
+          "values": { "libertarian": 3, "authoritarian": 5, "lefteconomy": 10, "righteconomy": 1, "progressive": 9 }
+        },
+        {
+          "text": "Politiche ambientali graduali e realistiche",
+          "values": { "libertarian": 5, "authoritarian": 4, "lefteconomy": 6, "righteconomy": 5, "progressive": 7 }
+        },
+        {
+          "text": "Lo stato impone le soluzioni necessarie",
+          "values": { "libertarian": 1, "authoritarian": 9, "lefteconomy": 6, "righteconomy": 4, "progressive": 6 }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Sul lavoro e sindacati:",
+      "answers": [
+        {
+          "text": "Libertà contrattuale senza sindacati",
+          "values": { "libertarian": 10, "authoritarian": 4, "lefteconomy": 1, "righteconomy": 9, "progressive": 3 }
+        },
+        {
+          "text": "Sindacati forti e diritti dei lavoratori",
+          "values": { "libertarian": 4, "authoritarian": 5, "lefteconomy": 10, "righteconomy": 2, "progressive": 8 }
+        },
+        {
+          "text": "Dialogo sociale tra parti",
+          "values": { "libertarian": 5, "authoritarian": 4, "lefteconomy": 6, "righteconomy": 5, "progressive": 6 }
+        },
+        {
+          "text": "Lo stato controlla tutto il mondo del lavoro",
+          "values": { "libertarian": 1, "authoritarian": 10, "lefteconomy": 7, "righteconomy": 3, "progressive": 4 }
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "anarcho-capitalista",
+      "name": "Anarchico-Capitalista",
+      "description": "Credi nella massima libertà individuale ed economica. Sogni un mondo senza stato dove il libero mercato regola tutto. Per te la proprietà privata è sacra e ogni forma di tassazione è un furto!",
+      "requirements": {
+        "libertarian": { "min": 50, "max": 80 },
+        "righteconomy": { "min": 45, "max": 80 },
+        "authoritarian": { "min": 0, "max": 20 }
+      }
+    },
+    {
+      "id": "socialista-libertario",
+      "name": "Socialista Libertario",
+      "description": "Combini la giustizia sociale con la libertà individuale. Vuoi un'economia più equa ma senza sacrificare i diritti civili. Cooperativismo e democrazia diretta sono i tuoi ideali!",
+      "requirements": {
+        "libertarian": { "min": 35, "max": 70 },
+        "lefteconomy": { "min": 40, "max": 80 },
+        "progressive": { "min": 35, "max": 80 }
+      }
+    },
+    {
+      "id": "conservatore-autoritario",
+      "name": "Conservatore Autoritario",
+      "description": "Valori tradizione, ordine e autorità. Credi che la società abbia bisogno di regole ferme e leader forti. Famiglia, patria e sicurezza sono le tue priorità assolute.",
+      "requirements": {
+        "authoritarian": { "min": 40, "max": 80 },
+        "righteconomy": { "min": 30, "max": 70 },
+        "progressive": { "min": 0, "max": 25 }
+      }
+    },
+    {
+      "id": "socialdemocratico",
+      "name": "Socialdemocratico",
+      "description": "Credi nel welfare state e nella democrazia rappresentativa. Vuoi ridurre le disuguaglianze attraverso politiche pubbliche, mantenendo il pluralismo e i diritti civili.",
+      "requirements": {
+        "lefteconomy": { "min": 35, "max": 65 },
+        "progressive": { "min": 30, "max": 70 },
+        "authoritarian": { "min": 15, "max": 45 },
+        "libertarian": { "min": 15, "max": 45 }
+      }
+    },
+    {
+      "id": "liberale-classico",
+      "name": "Liberale Classico",
+      "description": "Equilibri libertà economica e diritti civili. Credi nel libero mercato ma anche nello stato di diritto. Sei per riforme graduali e il rispetto delle istituzioni democratiche.",
+      "requirements": {
+        "libertarian": { "min": 30, "max": 60 },
+        "righteconomy": { "min": 30, "max": 60 },
+        "progressive": { "min": 25, "max": 55 }
+      }
+    },
+    {
+      "id": "centrista-pragmatico",
+      "name": "Centrista Pragmatico",
+      "description": "Non ti identifichi in ideologie estreme. Preferisci soluzioni pratiche e compromessi ragionevoli. Credi che la verità stia spesso nel mezzo e che il dialogo sia fondamentale.",
+      "requirements": {
+        "libertarian": { "min": 0, "max": 80 }
+      }
+    }
+  ]
+}

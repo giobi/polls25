@@ -42,6 +42,27 @@
             "url": "poll-v2.html?poll=che-tipo-di-mangiatore-sei",
             "version": 2,
             "description": "Scopri il tuo profilo alimentare con il nostro sistema avanzato di skill multiple!"
+        },
+        {
+            "id": "che-tipo-di-lavoratore-sei",
+            "title": "Che tipo di lavoratore sei?",
+            "url": "poll-v2.html?poll=che-tipo-di-lavoratore-sei",
+            "version": 2,
+            "description": "Scopri il tuo stile di lavoro e le tue attitudini professionali!"
+        },
+        {
+            "id": "quale-viaggiatore-sei",
+            "title": "Quale viaggiatore sei?",
+            "url": "poll-v2.html?poll=quale-viaggiatore-sei",
+            "version": 2,
+            "description": "Scopri il tuo stile di viaggio e le tue preferenze da esploratore!"
+        },
+        {
+            "id": "orientamento-politico-economico",
+            "title": "Qual è il tuo orientamento politico-economico?",
+            "url": "poll-v2.html?poll=orientamento-politico-economico",
+            "version": 2,
+            "description": "Scopri la tua posizione nel panorama politico ed economico!"
         }
     ]
 }

@@ -1,67 +1,127 @@
 {
-  "version": "v2",
-  "title": "Valutazione Competenze Prevendita Gestionale (Situazioni Realistiche)",
-  "description": "Test situazionale per valutare le competenze di prevendita gestionale attraverso scenari di lavoro quotidiano.",
-  "questions": [
-    {
-      "question": "Un collega junior ti chiede aiuto per rispondere a una domanda complessa di un cliente importante. Come ti comporti?",
-      "options": [
-        { "text": "Dedichi tempo a spiegare la logica della risposta e lo coinvolgi nella soluzione.", "points": 2 },
-        { "text": "Gli invii una risposta standard da inoltrare al cliente.", "points": 0 },
-        { "text": "Gli chiedi di scrivere una bozza e poi la revisionate insieme.", "points": 2 },
-        { "text": "Gli dici di rivolgersi a un altro collega più esperto.", "points": 0 },
-        { "text": "Rispondi tu direttamente al cliente senza coinvolgere il collega.", "points": 1 }
-      ]
-    },
-    {
-      "question": "Durante una riunione, il cliente cambia più volte versione sulle sue priorità. Come gestisci la situazione?",
-      "options": [
-        { "text": "Fai domande mirate per chiarire le sue reali esigenze e ricapitoli quanto emerso.", "points": 2 },
-        { "text": "Prendi nota di tutte le versioni e lasci che sia il cliente a decidere in seguito.", "points": 0 },
-        { "text": "Proponi di fissare un nuovo incontro per avere idee più chiare.", "points": 1 },
-        { "text": "Ti limiti a presentare la tua proposta senza approfondire.", "points": 0 },
-        { "text": "Chiedi al cliente di inviare una mail riassuntiva dopo la riunione.", "points": 1 }
-      ]
-    },
-    {
-      "question": "Ricevi un set di dati incompleti e poco coerenti dal cliente. Cosa fai?",
-      "options": [
-        { "text": "Analizzi i dati, segnali le discrepanze e chiedi chiarimenti specifici.", "points": 2 },
-        { "text": "Utilizzi solo i dati disponibili e ignori le incongruenze.", "points": 0 },
-        { "text": "Provi a ricostruire le informazioni mancanti con ipotesi ragionevoli.", "points": 1 },
-        { "text": "Chiedi al cliente di inviare nuovamente tutti i dati da capo.", "points": 0 },
-        { "text": "Coinvolgi il team per un confronto sulle possibili interpretazioni.", "points": 2 }
-      ]
-    },
-    {
-      "question": "Un cliente storico ti chiede una soluzione 'fuori catalogo' per un'esigenza particolare. Come procedi?",
-      "options": [
-        { "text": "Cerchi di capire il bisogno reale e coinvolgi il team per valutare una proposta personalizzata.", "points": 2 },
-        { "text": "Proponi subito il prodotto più simile disponibile.", "points": 0 },
-        { "text": "Chiedi al cliente di adattarsi alle soluzioni standard.", "points": 0 },
-        { "text": "Valuti se la richiesta può essere un'opportunità anche per altri clienti.", "points": 2 },
-        { "text": "Rinunci alla trattativa perché troppo complessa.", "points": 0 }
-      ]
-    }
-  ],
-  "results": [
-    {
-      "minScore": 0,
-      "maxScore": 3,
-      "title": "Competenze da sviluppare",
-      "text": "Hai bisogno di rafforzare la tua capacità di ascolto, analisi e collaborazione in situazioni reali di prevendita."
-    },
-    {
-      "minScore": 4,
-      "maxScore": 6,
-      "title": "Buon potenziale",
-      "text": "Mostri attenzione e metodo, ma puoi migliorare nella gestione di situazioni complesse e nella personalizzazione delle risposte."
-    },
-    {
-      "minScore": 7,
-      "maxScore": 8,
-      "title": "Ottime competenze gestionali",
-      "text": "Dimostri capacità avanzate di ascolto, analisi e gestione di casi reali: sei pronto per la prevendita consulenziale!"
-    }
-  ]
+    "version": "v2",
+    "title": "Valutazione Competenze Prevendita Gestionale (Situazioni Realistiche)",
+    "description": "Test situazionale per valutare le competenze di prevendita gestionale attraverso scenari di lavoro quotidiano.",
+    "questions": [
+        {
+            "question": "Un collega junior ti chiede aiuto per rispondere a una domanda complessa di un cliente importante. Come ti comporti?",
+            "options": [
+                {
+                    "text": "Dedichi tempo a spiegare la logica della risposta e lo coinvolgi nella soluzione.",
+                    "points": 2
+                },
+                {
+                    "text": "Gli invii una risposta standard da inoltrare al cliente.",
+                    "points": 0
+                },
+                {
+                    "text": "Gli chiedi di scrivere una bozza e poi la revisionate insieme.",
+                    "points": 2
+                },
+                {
+                    "text": "Gli dici di rivolgersi a un altro collega più esperto.",
+                    "points": 0
+                },
+                {
+                    "text": "Rispondi tu direttamente al cliente senza coinvolgere il collega.",
+                    "points": 1
+                }
+            ]
+        },
+        {
+            "question": "Durante una riunione, il cliente cambia più volte versione sulle sue priorità. Come gestisci la situazione?",
+            "options": [
+                {
+                    "text": "Fai domande mirate per chiarire le sue reali esigenze e ricapitoli quanto emerso.",
+                    "points": 2
+                },
+                {
+                    "text": "Prendi nota di tutte le versioni e lasci che sia il cliente a decidere in seguito.",
+                    "points": 0
+                },
+                {
+                    "text": "Proponi di fissare un nuovo incontro per avere idee più chiare.",
+                    "points": 1
+                },
+                {
+                    "text": "Ti limiti a presentare la tua proposta senza approfondire.",
+                    "points": 0
+                },
+                {
+                    "text": "Chiedi al cliente di inviare una mail riassuntiva dopo la riunione.",
+                    "points": 1
+                }
+            ]
+        },
+        {
+            "question": "Ricevi un set di dati incompleti e poco coerenti dal cliente. Cosa fai?",
+            "options": [
+                {
+                    "text": "Analizzi i dati, segnali le discrepanze e chiedi chiarimenti specifici.",
+                    "points": 2
+                },
+                {
+                    "text": "Utilizzi solo i dati disponibili e ignori le incongruenze.",
+                    "points": 0
+                },
+                {
+                    "text": "Provi a ricostruire le informazioni mancanti con ipotesi ragionevoli.",
+                    "points": 1
+                },
+                {
+                    "text": "Chiedi al cliente di inviare nuovamente tutti i dati da capo.",
+                    "points": 0
+                },
+                {
+                    "text": "Coinvolgi il team per un confronto sulle possibili interpretazioni.",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "question": "Un cliente storico ti chiede una soluzione 'fuori catalogo' per un'esigenza particolare. Come procedi?",
+            "options": [
+                {
+                    "text": "Cerchi di capire il bisogno reale e coinvolgi il team per valutare una proposta personalizzata.",
+                    "points": 2
+                },
+                {
+                    "text": "Proponi subito il prodotto più simile disponibile.",
+                    "points": 0
+                },
+                {
+                    "text": "Chiedi al cliente di adattarsi alle soluzioni standard.",
+                    "points": 0
+                },
+                {
+                    "text": "Valuti se la richiesta può essere un'opportunità anche per altri clienti.",
+                    "points": 2
+                },
+                {
+                    "text": "Rinunci alla trattativa perché troppo complessa.",
+                    "points": 0
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "minScore": 0,
+            "maxScore": 3,
+            "title": "Competenze da sviluppare",
+            "text": "Hai bisogno di rafforzare la tua capacità di ascolto, analisi e collaborazione in situazioni reali di prevendita."
+        },
+        {
+            "minScore": 4,
+            "maxScore": 6,
+            "title": "Buon potenziale",
+            "text": "Mostri attenzione e metodo, ma puoi migliorare nella gestione di situazioni complesse e nella personalizzazione delle risposte."
+        },
+        {
+            "minScore": 7,
+            "maxScore": 8,
+            "title": "Ottime competenze gestionali",
+            "text": "Dimostri capacità avanzate di ascolto, analisi e gestione di casi reali: sei pronto per la prevendita consulenziale!"
+        }
+    ]
 }

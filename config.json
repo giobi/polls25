@@ -63,6 +63,13 @@
             "url": "poll-v2.html?poll=orientamento-politico-economico",
             "version": 2,
             "description": "Scopri la tua posizione nel panorama politico ed economico!"
+        },
+        {
+            "id": "valutazione-prevendita-gestionale-v2",
+            "title": "Valutazione Competenze Prevendita Gestionale (Situazioni Realistiche)",
+            "url": "poll-v2.html?poll=valutazione-prevendita-gestionale-v2",
+            "version": 2,
+            "description": "Test situazionale per valutare le competenze di prevendita gestionale attraverso scenari di lavoro quotidiano."
         }
     ]
 }

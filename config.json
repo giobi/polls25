@@ -77,6 +77,20 @@
             "url": "poll-v2.html?poll=che-programmatore-sei",
             "version": 2,
             "description": "Scopri che tipo di programmatore sei attraverso le tue preferenze di vita quotidiana!"
+        },
+        {
+            "id": "che-genitore-sei",
+            "title": "Che genitore sei?",
+            "url": "poll-v2.html?poll=che-genitore-sei",
+            "version": 2,
+            "description": "Scopri il tuo stile genitoriale attraverso le tue scelte educative e i tuoi valori familiari!"
+        },
+        {
+            "id": "che-sintetizzatore-sei",
+            "title": "Che sintetizzatore sei?",
+            "url": "poll-v2.html?poll=che-sintetizzatore-sei",
+            "version": 2,
+            "description": "Scopri quale leggendario synth rappresenta meglio la tua personalità e il tuo approccio alla creatività!"
         }
     ]
 }

@@ -1,0 +1,872 @@
+{
+    "version": 2,
+    "title": "Che genitore sei?",
+    "description": "Scopri il tuo stile genitoriale attraverso le tue scelte educative, i ricordi familiari e le tue preferenze di vita!",
+    "skills": {
+        "protettivo": "Protezione & Sicurezza",
+        "permissivo": "Libertà & Autonomia",
+        "strutturato": "Regole & Disciplina",
+        "emotivo": "Empatia & Affetto",
+        "educativo": "Crescita & Apprendimento"
+    },
+    "questions": [
+        {
+            "text": "Tuo figlio di 8 anni vuole andare in bicicletta al parco da solo. Come reagisci?",
+            "answers": [
+                {
+                    "text": "Assolutamente no, è troppo pericoloso! Lo accompagno sempre io.",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 0,
+                        "strutturato": 2,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Ok, ma solo dopo avergli spiegato tutte le regole di sicurezza",
+                    "values": {
+                        "protettivo": 2,
+                        "permissivo": 1,
+                        "strutturato": 3,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Perfetto! È importante che impari ad essere indipendente",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 1,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Dipende da come si sente lui, ne parliamo insieme",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Prima gli insegno bene a usare la bici e le regole stradali",
+                    "values": {
+                        "protettivo": 2,
+                        "permissivo": 1,
+                        "strutturato": 2,
+                        "emotivo": 1,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Come gestisci i compiti a casa con tuo figlio?",
+            "answers": [
+                {
+                    "text": "Sto sempre accanto a lui per aiutarlo e controllare",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 0,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Ha orari fissi per i compiti, niente eccezioni",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 0,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Fa i compiti quando vuole, l'importante è che li faccia",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Li facciamo insieme, è un momento di condivisione",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Lo aiuto quando ha difficoltà, ma deve imparare da solo",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 2,
+                        "emotivo": 1,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Tuo figlio adolescente vuole uscire fino a tardi con gli amici. Cosa fai?",
+            "answers": [
+                {
+                    "text": "Mai! Di sera a casa, punto e basta",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 0,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Ok, ma voglio sapere dove va e con chi",
+                    "values": {
+                        "protettivo": 2,
+                        "permissivo": 1,
+                        "strutturato": 2,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Ha la mia fiducia, può gestirsi da solo",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Ne parliamo, voglio capire le sue esigenze",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Può uscire se dimostra di essere responsabile",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 2,
+                        "emotivo": 1,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Come reagisci quando tuo figlio fa i capricci in pubblico?",
+            "answers": [
+                {
+                    "text": "Lo porto subito via per proteggerlo dallo stress",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 1,
+                        "strutturato": 0,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Fermo, calmo e deciso: le regole sono regole",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 0,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Lascio che si sfoghi, passerà da solo",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Mi metto alla sua altezza e cerco di capire cosa prova",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Uso il momento per insegnargli a gestire le emozioni",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Come ricordi il rapporto con i tuoi genitori quando eri bambino?",
+            "answers": [
+                {
+                    "text": "Mi sentivo sempre al sicuro, protetto da tutto",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 0,
+                        "strutturato": 1,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Regole chiare e rispetto assoluto, sapevo cosa aspettarmi",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Libertà totale, facevo quello che volevo",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Tanto amore e comprensione, parlavamo di tutto",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Mi incoraggiavano sempre a imparare e crescere",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Qual è la tradizione di famiglia che ritieni più importante?",
+            "answers": [
+                {
+                    "text": "Le cene della domenica tutti insieme, sempre",
+                    "values": {
+                        "protettivo": 2,
+                        "permissivo": 0,
+                        "strutturato": 2,
+                        "emotivo": 3,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Il rispetto degli orari e delle regole domestiche",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Ognuno è libero di partecipare come vuole",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Le vacanze insieme, momenti di condivisione unici",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Leggere insieme la sera, imparare sempre qualcosa di nuovo",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Come gestivi i conflitti con i tuoi genitori da adolescente?",
+            "answers": [
+                {
+                    "text": "Evitavo sempre i conflitti, non volevo dispiaceri",
+                    "values": {
+                        "protettivo": 2,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Rispettavo le loro decisioni, anche se non ero d'accordo",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Facevo di testa mia, tanto poi si dimenticavano",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Parlavamo sempre fino a trovare un compromesso",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Cercavo di capire il loro punto di vista per imparare",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Che ruolo ha avuto la famiglia allargata nella tua crescita?",
+            "answers": [
+                {
+                    "text": "Nonni e zii erano la mia rete di sicurezza",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Regole uguali per tutti, da tutti rispettate",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Ognuno faceva come voleva, libertà totale",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Fonte inesauribile di amore e supporto emotivo",
+                    "values": {
+                        "protettivo": 2,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Ogni parente mi ha insegnato qualcosa di diverso",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 1,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Come scegli i tuoi amici più stretti?",
+            "answers": [
+                {
+                    "text": "Persone affidabili su cui posso sempre contare",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 1,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Chi rispetta i miei valori e le mie regole di vita",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Spiriti liberi come me, senza troppi vincoli",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Chi sa ascoltare e condividere emozioni profonde",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Persone da cui posso imparare sempre qualcosa",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Qual è il tuo approccio ai regali per le persone care?",
+            "answers": [
+                {
+                    "text": "Cose utili e sicure, che so che useranno davvero",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 1,
+                        "strutturato": 2,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Rispetto sempre il budget e le occasioni appropriate",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 1,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Quello che mi ispira al momento, senza pensarci troppo",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Qualcosa che tocchi il cuore e crei un ricordo",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Esperienze che possano arricchire la loro vita",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Come gestisci lo stress nelle situazioni difficili?",
+            "answers": [
+                {
+                    "text": "Cerco subito aiuto e supporto da chi mi sta vicino",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 1,
+                        "strutturato": 1,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Seguo procedure precise e metodiche per risolvere",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 0,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Lascio che le cose si risolvano da sole",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Mi prendo del tempo per elaborare le emozioni",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Trasformo ogni crisi in un'opportunità di crescita",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Qual è la tua filosofia riguardo agli errori nella vita?",
+            "answers": [
+                {
+                    "text": "È meglio evitarli a tutti i costi, prevenire è meglio",
+                    "values": {
+                        "protettivo": 3,
+                        "permissivo": 0,
+                        "strutturato": 2,
+                        "emotivo": 1,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Chi sbaglia paga, ci devono essere conseguenze",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 0,
+                        "strutturato": 3,
+                        "emotivo": 0,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Fanno parte della vita, succede e non è grave",
+                    "values": {
+                        "protettivo": 0,
+                        "permissivo": 3,
+                        "strutturato": 0,
+                        "emotivo": 2,
+                        "educativo": 1
+                    }
+                },
+                {
+                    "text": "Sono dolorosi ma vanno compresi e perdonati",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 1,
+                        "emotivo": 3,
+                        "educativo": 2
+                    }
+                },
+                {
+                    "text": "Sono le migliori opportunità per imparare e crescere",
+                    "values": {
+                        "protettivo": 1,
+                        "permissivo": 2,
+                        "strutturato": 2,
+                        "emotivo": 2,
+                        "educativo": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "profiles": [
+        {
+            "name": "Il Genitore Protettivo - L'Angelo Custode",
+            "description": "La sicurezza dei tuoi figli è la tua priorità assoluta! Sei sempre vigile e attento, vuoi proteggere i tuoi bambini da ogni possibile pericolo. Il tuo amore si manifesta attraverso la cura costante e l'attenzione ai dettagli. Rischi di essere un po' iperprotettivo, ma il tuo cuore è nel posto giusto.",
+            "requirements": {
+                "protettivo": {
+                    "min": 25
+                },
+                "permissivo": {
+                    "max": 10
+                },
+                "strutturato": {
+                    "min": 15
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Permissivo - L'Amico",
+            "description": "Libertà e fiducia sono i pilastri della tua genitorialità! Credi nell'autonomia dei tuoi figli e vuoi che imparino dalle proprie esperienze. Sei il genitore 'cool' che lascia spazio per crescere. A volte potresti aver bisogno di più struttura, ma i tuoi figli ti adorano per la tua apertura mentale.",
+            "requirements": {
+                "permissivo": {
+                    "min": 25
+                },
+                "protettivo": {
+                    "max": 15
+                },
+                "strutturato": {
+                    "max": 15
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Strutturato - Il Comandante",
+            "description": "Regole, disciplina e coerenza sono i tuoi strumenti educativi! Hai una visione chiara di come crescere bambini responsabili e rispettosi. La tua casa funziona come un orologio svizzero. Potresti essere un po' rigido, ma i tuoi figli imparano valori solidi e autodisciplina.",
+            "requirements": {
+                "strutturato": {
+                    "min": 25
+                },
+                "permissivo": {
+                    "max": 10
+                },
+                "emotivo": {
+                    "max": 15
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Emotivo - Il Cuore",
+            "description": "L'amore e l'empatia guidano ogni tua decisione! Sei profondamente connesso ai sentimenti dei tuoi figli e sai creare un ambiente emotivamente sicuro. I tuoi bambini sanno di poter sempre contare su di te per comprensione e sostegno. La tua sensibilità è il tuo superpotere genitoriale.",
+            "requirements": {
+                "emotivo": {
+                    "min": 25
+                },
+                "strutturato": {
+                    "max": 15
+                },
+                "protettivo": {
+                    "min": 10
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Educativo - Il Maestro",
+            "description": "Ogni momento è un'opportunità di apprendimento! Sei appassionato della crescita intellettuale ed emotiva dei tuoi figli. Trasformi le sfide in lezioni di vita e incoraggi sempre la curiosità. I tuoi bambini sviluppano un amore per l'apprendimento che li accompagnerà per tutta la vita.",
+            "requirements": {
+                "educativo": {
+                    "min": 25
+                },
+                "emotivo": {
+                    "min": 15
+                },
+                "strutturato": {
+                    "min": 15
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Equilibrato - Il Diplomatico",
+            "description": "Hai trovato il perfetto equilibrio tra tutti gli aspetti della genitorialità! Sai quando essere protettivo e quando dare libertà, quando essere fermo e quando essere comprensivo. I tuoi figli crescono in un ambiente bilanciato dove si sentono sicuri ma liberi di esplorare.",
+            "requirements": {
+                "protettivo": {
+                    "min": 15,
+                    "max": 25
+                },
+                "permissivo": {
+                    "min": 15,
+                    "max": 25
+                },
+                "strutturato": {
+                    "min": 15,
+                    "max": 25
+                },
+                "emotivo": {
+                    "min": 15,
+                    "max": 25
+                },
+                "educativo": {
+                    "min": 15,
+                    "max": 25
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Autoritario - Il Generale",
+            "description": "Disciplina ferrea e aspettative elevate caratterizzano il tuo stile! Credi nel valore delle regole e della responsabilità. I tuoi figli imparano l'autodisciplina e il rispetto per l'autorità. Potresti beneficiare di un po' più di flessibilità emotiva, ma la tua coerenza dà sicurezza.",
+            "requirements": {
+                "strutturato": {
+                    "min": 20
+                },
+                "protettivo": {
+                    "min": 15
+                },
+                "permissivo": {
+                    "max": 10
+                },
+                "emotivo": {
+                    "max": 15
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Ansioso - Il Preoccupato",
+            "description": "Il tuo amore si manifesta attraverso una costante preoccupazione per il benessere dei tuoi figli! Tendi a immaginare tutti i possibili scenari negativi e vuoi essere sempre preparato. La tua attenzione è commovente, ma ricorda che anche i bambini hanno bisogno di un po' di 'rischio calcolato' per crescere.",
+            "requirements": {
+                "protettivo": {
+                    "min": 20
+                },
+                "emotivo": {
+                    "min": 20
+                },
+                "permissivo": {
+                    "max": 10
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Creativo - L'Artista",
+            "description": "Porti creatività e spontaneità nella tua genitorialità! Ami sperimentare approcci diversi e creare esperienze uniche per i tuoi figli. La tua casa è piena di progetti, avventure e sorprese. I tuoi bambini sviluppano fantasia e flessibilità mentale, anche se a volte potrebbero aver bisogno di più routine.",
+            "requirements": {
+                "permissivo": {
+                    "min": 20
+                },
+                "educativo": {
+                    "min": 15
+                },
+                "emotivo": {
+                    "min": 15
+                },
+                "strutturato": {
+                    "max": 15
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Moderno - Il Coach",
+            "description": "Unisci tradizione e innovazione nel tuo approccio educativo! Sai adattarti ai tempi moderni mantenendo valori solidi. I tuoi figli crescono preparati per il futuro ma con radici ben salde. Sei il genitore che sa quando dire sì e quando dire no, sempre con una spiegazione logica.",
+            "requirements": {
+                "educativo": {
+                    "min": 20
+                },
+                "strutturato": {
+                    "min": 15
+                },
+                "emotivo": {
+                    "min": 15
+                },
+                "permissivo": {
+                    "min": 10
+                }
+            }
+        },
+        {
+            "name": "Il Genitore Indefinito - Lo Sperimentatore",
+            "description": "Il tuo stile genitoriale è unico e in continua evoluzione! Non ti identifichi completamente in nessun approccio tradizionale, ma crei il tuo mix personale basato sull'istinto e sull'amore. Ogni situazione è diversa e tu sai adattarti. I tuoi figli crescono con un genitore autentico che non ha paura di ammettere quando non sa tutto.",
+            "requirements": {
+                "protettivo": {
+                    "min": 0,
+                    "max": 100
+                },
+                "permissivo": {
+                    "min": 0,
+                    "max": 100
+                },
+                "strutturato": {
+                    "min": 0,
+                    "max": 100
+                },
+                "emotivo": {
+                    "min": 0,
+                    "max": 100
+                },
+                "educativo": {
+                    "min": 0,
+                    "max": 100
+                }
+            }
+        }
+    ]
+}

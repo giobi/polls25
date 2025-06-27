@@ -45,7 +45,10 @@ I profili sono definiti da range di valori per ogni skill:
 - Ogni profilo specifica valori min/max per le skill
 - I profili vengono valutati in ordine dal più al meno restrittivo
 - Il primo profilo che soddisfa tutti i criteri viene assegnato
+- **IMPORTANTE**: I test V2 devono sempre avere profili finali "catch-all" che coprano qualsiasi combinazione di skill residua
+- Il profilo finale deve avere parametri molto ampi (es. min: 0, max: 100 per tutte le skill) per garantire che ogni utente riceva sempre un risultato
 - Esempio profilo "Sano": fat max:2 min:0, protein max:8 min:5, fiber min:5 max:10
+- Esempio profilo finale "Indefinito": tutte le skill con min:0 max:100
 
 ## Note
 Assicurarsi che tutti i file siano correttamente collegati e che le funzionalità siano testate per garantire un'esperienza utente fluida.

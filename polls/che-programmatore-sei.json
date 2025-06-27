@@ -1,0 +1,421 @@
+{
+    "version": 2,
+    "title": "Che Programmatore Sei?",
+    "description": "Scopri il tuo linguaggio di programmazione ideale attraverso le tue scelte di vita, gusti e personalità!",
+    "skills": {
+        "legacy": "Tradizione & Stabilità",
+        "modern": "Innovazione & Modernità", 
+        "performance": "Efficienza & Performance",
+        "creativity": "Creatività & Flessibilità",
+        "enterprise": "Business & Scalabilità"
+    },
+    "questions": [
+        {
+            "text": "Qual è il tuo piatto preferito per una cena importante?",
+            "answers": [
+                {
+                    "text": "Un classico arrosto della domenica, come lo faceva la nonna",
+                    "values": { "legacy": 3, "modern": 0, "performance": 1, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Sushi fusion con ingredienti innovativi e presentazione artistica",
+                    "values": { "legacy": 0, "modern": 3, "performance": 1, "creativity": 3, "enterprise": 1 }
+                },
+                {
+                    "text": "Una bistecca perfettamente grigliata, semplice ed efficace",
+                    "values": { "legacy": 1, "modern": 0, "performance": 3, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Un piatto etnico che ho imparato a cucinare dai miei viaggi",
+                    "values": { "legacy": 0, "modern": 2, "performance": 0, "creativity": 3, "enterprise": 1 }
+                },
+                {
+                    "text": "Un menu degustazione in un ristorante stellato",
+                    "values": { "legacy": 1, "modern": 2, "performance": 2, "creativity": 2, "enterprise": 3 }
+                },
+                {
+                    "text": "Pizza margherita, semplice ma fatta alla perfezione",
+                    "values": { "legacy": 2, "modern": 1, "performance": 2, "creativity": 1, "enterprise": 1 }
+                }
+            ]
+        },
+        {
+            "text": "Come organizzi la tua giornata ideale del weekend?",
+            "answers": [
+                {
+                    "text": "Routine consolidata: colazione, giornale, passeggiata nel solito parco",
+                    "values": { "legacy": 3, "modern": 0, "performance": 2, "creativity": 0, "enterprise": 1 }
+                },
+                {
+                    "text": "Sempre qualcosa di nuovo: app per scoprire eventi, luoghi mai visitati",
+                    "values": { "legacy": 0, "modern": 3, "performance": 1, "creativity": 2, "enterprise": 2 }
+                },
+                {
+                    "text": "Pianificazione ottimizzata: massimo risultato nel minor tempo possibile",
+                    "values": { "legacy": 1, "modern": 1, "performance": 3, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Totale improvvisazione: vedo che mi ispira sul momento",
+                    "values": { "legacy": 0, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Networking: eventi, aperitivi, incontri di lavoro informali",
+                    "values": { "legacy": 0, "modern": 2, "performance": 1, "creativity": 1, "enterprise": 3 }
+                }
+            ]
+        },
+        {
+            "text": "Qual è la tua arma preferita in un videogioco di combattimento?",
+            "answers": [
+                {
+                    "text": "Spada classica a due mani, testata in mille battaglie",
+                    "values": { "legacy": 3, "modern": 0, "performance": 2, "creativity": 0, "enterprise": 1 }
+                },
+                {
+                    "text": "Blaster al plasma di ultima generazione con AI integrata",
+                    "values": { "legacy": 0, "modern": 3, "performance": 2, "creativity": 1, "enterprise": 2 }
+                },
+                {
+                    "text": "Fucile di precisione: un colpo, un nemico eliminato",
+                    "values": { "legacy": 1, "modern": 1, "performance": 3, "creativity": 0, "enterprise": 1 }
+                },
+                {
+                    "text": "Magia elementale: ogni situazione richiede l'incantesimo giusto",
+                    "values": { "legacy": 1, "modern": 1, "performance": 1, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Armatura da tank: coordino la squadra e assorbo i danni",
+                    "values": { "legacy": 2, "modern": 1, "performance": 2, "creativity": 0, "enterprise": 3 }
+                },
+                {
+                    "text": "Pugnali: veloce, silenzioso, letale",
+                    "values": { "legacy": 0, "modern": 2, "performance": 2, "creativity": 2, "enterprise": 1 }
+                }
+            ]
+        },
+        {
+            "text": "Come scegli il tuo partner ideale?",
+            "answers": [
+                {
+                    "text": "Valori tradizionali solidi, famiglia e stabilità al primo posto",
+                    "values": { "legacy": 3, "modern": 0, "performance": 1, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Mentalità aperta, sempre pronto/a a sperimentare cose nuove",
+                    "values": { "legacy": 0, "modern": 3, "performance": 0, "creativity": 3, "enterprise": 1 }
+                },
+                {
+                    "text": "Efficienza emotiva: compatibilità verificata, obiettivi condivisi",
+                    "values": { "legacy": 1, "modern": 2, "performance": 3, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Chimica irrazionale e passione travolgente",
+                    "values": { "legacy": 0, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Ambizione condivisa e supporto reciproco nella carriera",
+                    "values": { "legacy": 1, "modern": 2, "performance": 2, "creativity": 1, "enterprise": 3 }
+                }
+            ]
+        },
+        {
+            "text": "Quale animale domestico preferisci?",
+            "answers": [
+                {
+                    "text": "Golden Retriever: fedele, affidabile, prevedibile",
+                    "values": { "legacy": 3, "modern": 0, "performance": 1, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Drone domestico con AI che impara le mie abitudini",
+                    "values": { "legacy": 0, "modern": 3, "performance": 2, "creativity": 2, "enterprise": 1 }
+                },
+                {
+                    "text": "Gatto: indipendente, efficiente nel controllo dei topi",
+                    "values": { "legacy": 1, "modern": 1, "performance": 3, "creativity": 1, "enterprise": 1 }
+                },
+                {
+                    "text": "Pappagallo esotico che parla in tre lingue",
+                    "values": { "legacy": 0, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 1 }
+                },
+                {
+                    "text": "Nessuno: troppo impegno, preferisco la libertà",
+                    "values": { "legacy": 0, "modern": 2, "performance": 2, "creativity": 2, "enterprise": 2 }
+                },
+                {
+                    "text": "Cavallo: prestigioso e richiede una gestione manageriale",
+                    "values": { "legacy": 2, "modern": 0, "performance": 1, "creativity": 1, "enterprise": 3 }
+                }
+            ]
+        },
+        {
+            "text": "Come hai trascorso la maggior parte della tua infanzia?",
+            "answers": [
+                {
+                    "text": "Giochi all'aperto con gli amici del quartiere, sempre gli stessi",
+                    "values": { "legacy": 3, "modern": 0, "performance": 1, "creativity": 1, "enterprise": 1 }
+                },
+                {
+                    "text": "Smontando giocattoli per capire come funzionavano",
+                    "values": { "legacy": 1, "modern": 2, "performance": 2, "creativity": 2, "enterprise": 1 }
+                },
+                {
+                    "text": "Allenamenti sportivi intensivi per vincere sempre",
+                    "values": { "legacy": 1, "modern": 0, "performance": 3, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Inventando storie e mondi fantastici con gli amici immaginari",
+                    "values": { "legacy": 0, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Organizzando 'aziende' con i compagni di classe",
+                    "values": { "legacy": 1, "modern": 2, "performance": 2, "creativity": 1, "enterprise": 3 }
+                },
+                {
+                    "text": "Leggendo libri e studiando argomenti che mi incuriosivano",
+                    "values": { "legacy": 2, "modern": 2, "performance": 2, "creativity": 2, "enterprise": 2 }
+                }
+            ]
+        },
+        {
+            "text": "Qual è la tua destinazione di viaggio ideale?",
+            "answers": [
+                {
+                    "text": "Un borgo medievale in Toscana: storia, tradizione, tranquillità",
+                    "values": { "legacy": 3, "modern": 0, "performance": 0, "creativity": 1, "enterprise": 1 }
+                },
+                {
+                    "text": "Tokyo: tecnologia, innovazione, futuro",
+                    "values": { "legacy": 0, "modern": 3, "performance": 2, "creativity": 2, "enterprise": 2 }
+                },
+                {
+                    "text": "Svizzera: tutto funziona perfettamente, puntualità assoluta",
+                    "values": { "legacy": 2, "modern": 1, "performance": 3, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "India: colori, caos creativo, spiritualità",
+                    "values": { "legacy": 1, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Dubai: lusso, business, networking internazionale",
+                    "values": { "legacy": 0, "modern": 2, "performance": 2, "creativity": 1, "enterprise": 3 }
+                },
+                {
+                    "text": "Norvegia: natura incontaminata, silenzio, semplicità",
+                    "values": { "legacy": 2, "modern": 1, "performance": 2, "creativity": 2, "enterprise": 0 }
+                }
+            ]
+        },
+        {
+            "text": "Come gestisci una situazione di emergenza?",
+            "answers": [
+                {
+                    "text": "Seguo protocolli consolidati e procedure ben testate",
+                    "values": { "legacy": 3, "modern": 0, "performance": 2, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Uso app e tecnologie smart per trovare la soluzione ottimale",
+                    "values": { "legacy": 0, "modern": 3, "performance": 2, "creativity": 1, "enterprise": 1 }
+                },
+                {
+                    "text": "Azione immediata e decisiva: prima agisco, poi penso",
+                    "values": { "legacy": 1, "modern": 1, "performance": 3, "creativity": 1, "enterprise": 1 }
+                },
+                {
+                    "text": "Improvvisazione creativa: ogni emergenza è unica",
+                    "values": { "legacy": 0, "modern": 1, "performance": 1, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Coordino un team: delego e supervisiono",
+                    "values": { "legacy": 1, "modern": 1, "performance": 2, "creativity": 1, "enterprise": 3 }
+                }
+            ]
+        },
+        {
+            "text": "Qual è il tuo orientamento politico ideale?",
+            "answers": [
+                {
+                    "text": "Conservatore: tradizioni e istituzioni consolidate",
+                    "values": { "legacy": 3, "modern": 0, "performance": 1, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Progressista: innovazione sociale e tecnologica",
+                    "values": { "legacy": 0, "modern": 3, "performance": 1, "creativity": 2, "enterprise": 1 }
+                },
+                {
+                    "text": "Liberista: meritocrazia e efficienza del mercato",
+                    "values": { "legacy": 1, "modern": 2, "performance": 3, "creativity": 1, "enterprise": 3 }
+                },
+                {
+                    "text": "Anarchico creativo: libertà totale di espressione",
+                    "values": { "legacy": 0, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Pragmatico: quello che funziona meglio per l'economia",
+                    "values": { "legacy": 1, "modern": 2, "performance": 2, "creativity": 1, "enterprise": 3 }
+                }
+            ]
+        },
+        {
+            "text": "Come preferisci lavorare in team?",
+            "answers": [
+                {
+                    "text": "Ruoli chiari, gerarchia rispettata, metodologie consolidate",
+                    "values": { "legacy": 3, "modern": 0, "performance": 2, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Team agili, strumenti collaborativi digitali, flessibilità totale",
+                    "values": { "legacy": 0, "modern": 3, "performance": 2, "creativity": 2, "enterprise": 2 }
+                },
+                {
+                    "text": "Focus sui risultati: meno riunioni, più azione",
+                    "values": { "legacy": 1, "modern": 1, "performance": 3, "creativity": 1, "enterprise": 2 }
+                },
+                {
+                    "text": "Brainstorming continuo, idee pazze benvenute",
+                    "values": { "legacy": 0, "modern": 2, "performance": 0, "creativity": 3, "enterprise": 1 }
+                },
+                {
+                    "text": "Preferisco coordinare e delegare strategicamente",
+                    "values": { "legacy": 2, "modern": 2, "performance": 2, "creativity": 1, "enterprise": 3 }
+                }
+            ]
+        },
+        {
+            "text": "Qual è il tuo rapporto con il denaro?",
+            "answers": [
+                {
+                    "text": "Risparmio sicuro: conto in banca e investimenti tradizionali",
+                    "values": { "legacy": 3, "modern": 0, "performance": 1, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Criptovalute e investimenti tech: il futuro è digitale",
+                    "values": { "legacy": 0, "modern": 3, "performance": 1, "creativity": 2, "enterprise": 2 }
+                },
+                {
+                    "text": "ROI massimo: ogni euro deve rendere il massimo possibile",
+                    "values": { "legacy": 1, "modern": 2, "performance": 3, "creativity": 0, "enterprise": 3 }
+                },
+                {
+                    "text": "Il denaro è energia: deve fluire e creare esperienze",
+                    "values": { "legacy": 0, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 1 }
+                },
+                {
+                    "text": "Diversificazione strategica e crescita sostenibile",
+                    "values": { "legacy": 2, "modern": 2, "performance": 2, "creativity": 1, "enterprise": 3 }
+                }
+            ]
+        },
+        {
+            "text": "Come scegli cosa guardare in TV o streaming?",
+            "answers": [
+                {
+                    "text": "Serie classiche che riguardo volentieri: comfort zone totale",
+                    "values": { "legacy": 3, "modern": 0, "performance": 1, "creativity": 0, "enterprise": 1 }
+                },
+                {
+                    "text": "Solo le ultime uscite: algoritmi AI mi suggeriscono il meglio",
+                    "values": { "legacy": 0, "modern": 3, "performance": 2, "creativity": 1, "enterprise": 1 }
+                },
+                {
+                    "text": "Serie finite: niente tempo da perdere con episodi infiniti",
+                    "values": { "legacy": 1, "modern": 1, "performance": 3, "creativity": 0, "enterprise": 2 }
+                },
+                {
+                    "text": "Film d'autore, documentari strani, roba che nessuno conosce",
+                    "values": { "legacy": 0, "modern": 1, "performance": 0, "creativity": 3, "enterprise": 0 }
+                },
+                {
+                    "text": "Seguo le tendenze: quello di cui parlano tutti sui social",
+                    "values": { "legacy": 0, "modern": 2, "performance": 1, "creativity": 1, "enterprise": 3 }
+                },
+                {
+                    "text": "Decido in base alle recensioni e ai rating: qualità garantita",
+                    "values": { "legacy": 2, "modern": 2, "performance": 2, "creativity": 1, "enterprise": 2 }
+                }
+            ]
+        }
+    ],
+    "profiles": [
+        {
+            "name": "COBOL Developer - Il Veterano",
+            "description": "Sei il pilastro dell'IT aziendale! Ami la stabilità, le procedure consolidate e i sistemi che 'funzionano da sempre'. Il tuo motto: 'Se non è rotto, non aggiustarlo'. Lavori su mainframe che gestiscono trilioni di transazioni e dormi sonni tranquilli sapendo che il tuo codice durerà decenni.",
+            "requirements": {
+                "legacy": { "min": 25 },
+                "modern": { "max": 10 },
+                "performance": { "min": 15 },
+                "enterprise": { "min": 20 }
+            }
+        },
+        {
+            "name": "JavaScript/Node.js Developer - L'Innovatore",
+            "description": "Vivi nel futuro! Sempre alla ricerca della prossima libreria, framework o tecnologia rivoluzionaria. Il tuo stack cambia ogni sei mesi e ti piace così. Async/await è la tua religione e il tuo package.json ha più dipendenze della metropolitana di Tokyo.",
+            "requirements": {
+                "modern": { "min": 25 },
+                "creativity": { "min": 20 },
+                "legacy": { "max": 15 },
+                "performance": { "min": 10 }
+            }
+        },
+        {
+            "name": "C/C++ Developer - Il Perfezionista",
+            "description": "Ogni byte conta! Sei il chirurgo del codice, dove performance e efficienza sono tutto. Gestisci la memoria manualmente e ne vai fiero. I tuoi programmi sono veloci come la luce e stabili come la roccia. 'Premature optimization is the root of all evil'? Per te è il contrario!",
+            "requirements": {
+                "performance": { "min": 25 },
+                "modern": { "max": 15 },
+                "creativity": { "max": 15 },
+                "legacy": { "min": 10 }
+            }
+        },
+        {
+            "name": "PHP Developer - Il Pragmatico",
+            "description": "Get stuff done! Non ti fai problemi per l'eleganza del codice, l'importante è che funzioni e che sia online ieri. Hai costruito metà del web mondiale e continui a farlo. WordPress, Laravel, Symfony: conosci tutti i segreti del server-side.",
+            "requirements": {
+                "creativity": { "min": 20 },
+                "modern": { "min": 15 },
+                "performance": { "min": 10 },
+                "legacy": { "min": 10 },
+                "enterprise": { "max": 20 }
+            }
+        },
+        {
+            "name": "SAP Developer - Il Manager",
+            "description": "Sei il ponte tra business e tecnologia! Parli fluentemente sia con i CEO che con i database. Il tuo mondo sono i processi aziendali, le integrazioni complesse e i budget milionari. ABAP è il tuo pane quotidiano e le implementazioni ERP non hanno segreti per te.",
+            "requirements": {
+                "enterprise": { "min": 25 },
+                "legacy": { "min": 15 },
+                "performance": { "min": 15 },
+                "creativity": { "max": 15 }
+            }
+        },
+        {
+            "name": "Python Developer - Il Versatile",
+            "description": "From web to AI to everything! Sei il coltellino svizzero della programmazione. Machine learning, web development, automazione, data science: non c'è campo che tu non possa conquistare. Il tuo codice è elegante quanto efficace, e 'import this' è la tua filosofia di vita.",
+            "requirements": {
+                "modern": { "min": 20 },
+                "creativity": { "min": 20 },
+                "performance": { "min": 15 },
+                "enterprise": { "min": 15 }
+            }
+        },
+        {
+            "name": "Java Developer - L'Enterprise Architect",
+            "description": "Scalabilità e robustezza sono il tuo marchio di fabbrica! Progetti sistemi che devono servire milioni di utenti senza mai andare down. Spring, Hibernate, microservizi: costruisci cattedrali di codice che durano nel tempo. Il tuo IDE è più complesso di una navicella spaziale.",
+            "requirements": {
+                "enterprise": { "min": 20 },
+                "performance": { "min": 20 },
+                "modern": { "min": 15 },
+                "legacy": { "min": 15 }
+            }
+        },
+        {
+            "name": "Database Developer - Il Custode dei Dati",
+            "description": "I dati sono il tuo regno! SQL è la tua lingua madre e ogni query è un'opera d'arte ottimizzata. Conosci ogni segreto di MySQL, PostgreSQL, Oracle. Le normalizzazioni non hanno segreti per te e i tuoi backup sono più sicuri di Fort Knox.",
+            "requirements": {
+                "performance": { "min": 20 },
+                "legacy": { "min": 20 },
+                "enterprise": { "min": 20 },
+                "creativity": { "max": 15 }
+            }
+        }
+    ]
+}

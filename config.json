@@ -65,32 +65,11 @@
             "description": "Scopri la tua posizione nel panorama politico ed economico!"
         },
         {
-            "id": "valutazione-prevendita-gestionale-v2",
-            "title": "Valutazione Competenze Prevendita Gestionale (Situazioni Realistiche)",
-            "url": "poll-v2.html?poll=valutazione-prevendita-gestionale-v2",
-            "version": 2,
-            "description": "Test situazionale per valutare le competenze di prevendita gestionale attraverso scenari di lavoro quotidiano."
-        },
-        {
-            "id": "che-programmatore-sei",
-            "title": "Che programmatore sei?",
-            "url": "poll-v2.html?poll=che-programmatore-sei",
-            "version": 2,
-            "description": "Scopri che tipo di programmatore sei attraverso le tue preferenze di vita quotidiana!"
-        },
-        {
-            "id": "che-genitore-sei",
-            "title": "Che genitore sei?",
-            "url": "poll-v2.html?poll=che-genitore-sei",
-            "version": 2,
-            "description": "Scopri il tuo stile genitoriale attraverso le tue scelte educative e i tuoi valori familiari!"
-        },
-        {
             "id": "che-sintetizzatore-sei",
             "title": "Che sintetizzatore sei?",
             "url": "poll-v2.html?poll=che-sintetizzatore-sei",
             "version": 2,
-            "description": "Scopri quale leggendario synth rappresenta meglio la tua personalità e il tuo approccio alla creatività!"
+            "description": "Test veloce e divertente: scopri il synth che rispecchia la tua personalità!"
         }
     ]
 }

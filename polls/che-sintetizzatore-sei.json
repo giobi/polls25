@@ -3,389 +3,444 @@
     "title": "Che sintetizzatore sei?",
     "description": "Test veloce e divertente: scopri il synth che rispecchia la tua personalità!",
     "skills": {
-        "analog": "Calore Analogico",
-        "digital": "Precisione Digitale",
-        "vintage": "Spirito Vintage",
-        "modern": "Innovazione Moderna",
-        "experimental": "Ricerca Sperimentale"
+        "analogico": "Spirito Analogico",
+        "portabilita": "Portabilità",
+        "budget": "Rapporto Qualità/Prezzo",
+        "facilita": "Facilità d'Uso",
+        "unicita": "Unicità di Suono"
     },
     "questions": [
         {
-            "text": "Candela o Lampadina LED?",
+            "text": "Cosa mangi per colazione?",
             "answers": [
                 {
-                    "text": "Candela",
+                    "text": "Cornetto al bar",
                     "values": {
-                        "vintage": 4,
-                        "analog": 2
+                        "facilita": 4,
+                        "budget": 2,
+                        "portabilita": 3
                     }
                 },
                 {
-                    "text": "LED",
+                    "text": "Pancakes fatti in casa",
                     "values": {
-                        "modern": 4,
-                        "digital": 2
+                        "analogico": 4,
+                        "unicita": 3,
+                        "facilita": 1
+                    }
+                },
+                {
+                    "text": "Barretta energetica",
+                    "values": {
+                        "portabilita": 4,
+                        "budget": 3,
+                        "facilita": 4
                     }
                 }
             ]
         },
         {
-            "text": "Polaroid o Instagram?",
+            "text": "Come ti vesti per uscire?",
             "answers": [
                 {
-                    "text": "Polaroid",
+                    "text": "Jeans e t-shirt",
                     "values": {
-                        "analog": 4,
-                        "vintage": 2
+                        "facilita": 4,
+                        "budget": 4,
+                        "portabilita": 3
                     }
                 },
                 {
-                    "text": "Instagram",
+                    "text": "Outfit ricercato e coordinato",
                     "values": {
-                        "digital": 3,
-                        "modern": 3
+                        "unicita": 4,
+                        "analogico": 3,
+                        "budget": 1
+                    }
+                },
+                {
+                    "text": "Tuta da ginnastica",
+                    "values": {
+                        "portabilita": 4,
+                        "facilita": 4,
+                        "budget": 3
                     }
                 }
             ]
         },
         {
-            "text": "Jeans o Tuta?",
+            "text": "Quale animale ti rappresenta?",
             "answers": [
                 {
-                    "text": "Jeans",
+                    "text": "Gatto",
                     "values": {
-                        "vintage": 3,
-                        "analog": 2
+                        "unicita": 4,
+                        "analogico": 3,
+                        "facilita": 2
                     }
                 },
                 {
-                    "text": "Tuta",
+                    "text": "Cane",
                     "values": {
-                        "modern": 3,
-                        "experimental": 2
+                        "facilita": 4,
+                        "portabilita": 3,
+                        "budget": 3
+                    }
+                },
+                {
+                    "text": "Delfino",
+                    "values": {
+                        "portabilita": 4,
+                        "unicita": 3,
+                        "analogico": 2
                     }
                 }
             ]
         },
         {
-            "text": "Torta della nonna o Sushi?",
+            "text": "Come ti sposti in città?",
             "answers": [
                 {
-                    "text": "Torta",
+                    "text": "A piedi",
                     "values": {
-                        "analog": 3,
-                        "vintage": 3
+                        "analogico": 4,
+                        "budget": 4,
+                        "portabilita": 2
                     }
                 },
                 {
-                    "text": "Sushi",
+                    "text": "Autobus",
                     "values": {
-                        "modern": 3,
-                        "experimental": 2
+                        "budget": 4,
+                        "facilita": 3,
+                        "portabilita": 3
+                    }
+                },
+                {
+                    "text": "Monopattino elettrico",
+                    "values": {
+                        "portabilita": 4,
+                        "unicita": 3,
+                        "facilita": 3
                     }
                 }
             ]
         },
         {
-            "text": "Scrivania di legno o Scrivania IKEA?",
+            "text": "Dove vai in vacanza?",
             "answers": [
                 {
-                    "text": "Legno",
+                    "text": "Montagna isolata",
                     "values": {
-                        "vintage": 3,
-                        "analog": 3
+                        "analogico": 4,
+                        "unicita": 4,
+                        "portabilita": 1
                     }
                 },
                 {
-                    "text": "IKEA",
+                    "text": "Città d'arte",
                     "values": {
-                        "modern": 3,
-                        "digital": 2
+                        "facilita": 3,
+                        "budget": 2,
+                        "portabilita": 3
+                    }
+                },
+                {
+                    "text": "Resort all-inclusive",
+                    "values": {
+                        "facilita": 4,
+                        "budget": 1,
+                        "portabilita": 2
                     }
                 }
             ]
         },
         {
-            "text": "Mercatino o Amazon?",
+            "text": "Che tipo di film guardi?",
             "answers": [
                 {
-                    "text": "Mercatino",
+                    "text": "Film d'autore",
                     "values": {
-                        "vintage": 4,
-                        "experimental": 2
+                        "analogico": 4,
+                        "unicita": 4,
+                        "facilita": 1
                     }
                 },
                 {
-                    "text": "Amazon",
+                    "text": "Blockbuster",
                     "values": {
-                        "digital": 4,
-                        "modern": 2
+                        "facilita": 4,
+                        "budget": 3,
+                        "portabilita": 3
+                    }
+                },
+                {
+                    "text": "Documentari",
+                    "values": {
+                        "unicita": 3,
+                        "analogico": 3,
+                        "budget": 3
                     }
                 }
             ]
         },
         {
-            "text": "Barba o Rasato?",
+            "text": "Come organizzi i tuoi appunti?",
             "answers": [
                 {
-                    "text": "Barba",
+                    "text": "Quaderno a mano",
                     "values": {
-                        "analog": 3,
-                        "vintage": 2
+                        "analogico": 4,
+                        "budget": 4,
+                        "unicita": 3
                     }
                 },
                 {
-                    "text": "Rasato",
+                    "text": "App del telefono",
                     "values": {
-                        "digital": 3,
-                        "modern": 2
+                        "portabilita": 4,
+                        "facilita": 4,
+                        "budget": 4
+                    }
+                },
+                {
+                    "text": "Sistema di post-it colorati",
+                    "values": {
+                        "unicita": 4,
+                        "facilita": 2,
+                        "analogico": 3
                     }
                 }
             ]
         },
         {
-            "text": "Camino o Condizionatore?",
+            "text": "Quale dolce scegli?",
             "answers": [
                 {
-                    "text": "Camino",
+                    "text": "Tiramisù della nonna",
                     "values": {
-                        "analog": 4,
-                        "vintage": 3
+                        "analogico": 4,
+                        "unicita": 4,
+                        "facilita": 1
                     }
                 },
                 {
-                    "text": "Condizionatore",
+                    "text": "Gelato confezionato",
                     "values": {
-                        "digital": 3,
-                        "modern": 3
+                        "facilita": 4,
+                        "budget": 4,
+                        "portabilita": 4
+                    }
+                },
+                {
+                    "text": "Cannolo siciliano",
+                    "values": {
+                        "unicita": 4,
+                        "analogico": 3,
+                        "budget": 2
                     }
                 }
             ]
         },
         {
-            "text": "Bicicletta vintage o E-bike?",
+            "text": "Come passi il tempo libero?",
             "answers": [
                 {
-                    "text": "Vintage",
+                    "text": "Leggendo un libro",
                     "values": {
-                        "vintage": 4,
-                        "analog": 2
+                        "analogico": 4,
+                        "budget": 3,
+                        "portabilita": 3
                     }
                 },
                 {
-                    "text": "E-bike",
+                    "text": "Guardando serie TV",
                     "values": {
-                        "modern": 4,
-                        "digital": 2
+                        "facilita": 4,
+                        "budget": 3,
+                        "portabilita": 2
+                    }
+                },
+                {
+                    "text": "Costruendo puzzle",
+                    "values": {
+                        "unicita": 3,
+                        "analogico": 4,
+                        "facilita": 2
                     }
                 }
             ]
         },
         {
-            "text": "Giornale cartaceo o News app?",
+            "text": "Dove fai la spesa?",
             "answers": [
                 {
-                    "text": "Cartaceo",
+                    "text": "Mercato rionale",
                     "values": {
-                        "vintage": 3,
-                        "analog": 2
+                        "analogico": 4,
+                        "unicita": 3,
+                        "budget": 3
                     }
                 },
                 {
-                    "text": "App",
+                    "text": "Supermercato",
                     "values": {
-                        "digital": 4,
-                        "modern": 2
+                        "facilita": 4,
+                        "budget": 3,
+                        "portabilita": 3
+                    }
+                },
+                {
+                    "text": "Consegna a domicilio",
+                    "values": {
+                        "portabilita": 4,
+                        "facilita": 4,
+                        "budget": 1
                     }
                 }
             ]
         },
         {
-            "text": "Macchina del caffè o Moka?",
+            "text": "Che sport pratichi?",
             "answers": [
                 {
-                    "text": "Moka",
+                    "text": "Corsa nel parco",
                     "values": {
-                        "analog": 4,
-                        "vintage": 2
+                        "analogico": 4,
+                        "budget": 4,
+                        "facilita": 3
                     }
                 },
                 {
-                    "text": "Macchina",
+                    "text": "Palestra",
                     "values": {
-                        "digital": 3,
-                        "modern": 3
+                        "facilita": 3,
+                        "portabilita": 3,
+                        "budget": 2
+                    }
+                },
+                {
+                    "text": "Arrampicata",
+                    "values": {
+                        "unicita": 4,
+                        "analogico": 3,
+                        "facilita": 1
                     }
                 }
             ]
         },
         {
-            "text": "Zaino di pelle o Zaino tecnico?",
+            "text": "Come ascolti la musica?",
             "answers": [
                 {
-                    "text": "Pelle",
+                    "text": "Vinili su giradischi",
                     "values": {
-                        "vintage": 3,
-                        "analog": 3
+                        "analogico": 4,
+                        "unicita": 4,
+                        "portabilita": 1
                     }
                 },
                 {
-                    "text": "Tecnico",
+                    "text": "Spotify",
                     "values": {
-                        "modern": 3,
-                        "digital": 2
+                        "facilita": 4,
+                        "portabilita": 4,
+                        "budget": 3
+                    }
+                },
+                {
+                    "text": "Radio",
+                    "values": {
+                        "budget": 4,
+                        "facilita": 4,
+                        "unicita": 2
                     }
                 }
             ]
         },
         {
-            "text": "Orologio a lancette o Smartwatch?",
+            "text": "Quale fiore ti piace di più?",
             "answers": [
                 {
-                    "text": "Lancette",
+                    "text": "Rosa rossa",
                     "values": {
-                        "vintage": 4,
-                        "analog": 3
+                        "analogico": 3,
+                        "facilita": 3,
+                        "budget": 2
                     }
                 },
                 {
-                    "text": "Smartwatch",
+                    "text": "Orchidea",
                     "values": {
-                        "digital": 4,
-                        "modern": 3
+                        "unicita": 4,
+                        "analogico": 2,
+                        "budget": 1
+                    }
+                },
+                {
+                    "text": "Margherita",
+                    "values": {
+                        "facilita": 4,
+                        "budget": 4,
+                        "portabilita": 3
                     }
                 }
             ]
         },
         {
-            "text": "Dischi in vinile o Streaming?",
+            "text": "Come bevi il caffè?",
             "answers": [
                 {
-                    "text": "Vinile",
+                    "text": "Moka tradizionale",
                     "values": {
-                        "vintage": 4,
-                        "analog": 4
+                        "analogico": 4,
+                        "budget": 4,
+                        "unicita": 3
                     }
                 },
                 {
-                    "text": "Streaming",
+                    "text": "Macchina automatica",
                     "values": {
-                        "digital": 4,
-                        "modern": 3
+                        "facilita": 4,
+                        "portabilita": 3,
+                        "budget": 2
+                    }
+                },
+                {
+                    "text": "Cold brew artigianale",
+                    "values": {
+                        "unicita": 4,
+                        "analogico": 2,
+                        "budget": 1
                     }
                 }
             ]
         },
         {
-            "text": "Quaderno o Tablet?",
+            "text": "Che colore ti rappresenta?",
             "answers": [
                 {
-                    "text": "Quaderno",
+                    "text": "Blu oceano",
                     "values": {
-                        "analog": 3,
-                        "vintage": 2
+                        "analogico": 3,
+                        "facilita": 3,
+                        "portabilita": 3
                     }
                 },
                 {
-                    "text": "Tablet",
+                    "text": "Rosso fuoco",
                     "values": {
-                        "digital": 3,
-                        "modern": 3
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Forno a legna o Microonde?",
-            "answers": [
-                {
-                    "text": "Legna",
-                    "values": {
-                        "analog": 4,
-                        "vintage": 2
+                        "unicita": 4,
+                        "analogico": 3,
+                        "facilita": 2
                     }
                 },
                 {
-                    "text": "Microonde",
+                    "text": "Verde natura",
                     "values": {
-                        "digital": 3,
-                        "modern": 3
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Arte astratta o Fotografia?",
-            "answers": [
-                {
-                    "text": "Astratta",
-                    "values": {
-                        "experimental": 4,
-                        "analog": 2
-                    }
-                },
-                {
-                    "text": "Fotografia",
-                    "values": {
-                        "digital": 3,
-                        "modern": 2
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Montagna o Città?",
-            "answers": [
-                {
-                    "text": "Montagna",
-                    "values": {
-                        "analog": 3,
-                        "experimental": 2
-                    }
-                },
-                {
-                    "text": "Città",
-                    "values": {
-                        "digital": 3,
-                        "modern": 3
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Miele o Sciroppo d'acero?",
-            "answers": [
-                {
-                    "text": "Miele",
-                    "values": {
-                        "analog": 3,
-                        "vintage": 2
-                    }
-                },
-                {
-                    "text": "Sciroppo",
-                    "values": {
-                        "experimental": 3,
-                        "modern": 2
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Pianoforte o Chitarra elettrica?",
-            "answers": [
-                {
-                    "text": "Pianoforte",
-                    "values": {
-                        "vintage": 3,
-                        "analog": 2
-                    }
-                },
-                {
-                    "text": "Elettrica",
-                    "values": {
-                        "modern": 3,
-                        "experimental": 3
+                        "budget": 4,
+                        "analogico": 4,
+                        "facilita": 3
                     }
                 }
             ]
@@ -393,116 +448,116 @@
     ],
     "profiles": [
         {
-            "name": "Moog Minimoog - Il Re Analogico",
-            "description": "Warm, fat, legendary! Sei il suono analogico per eccellenza. Caldo, ricco e inconfondibile. Un classico senza tempo che definisce l'elettronica.",
+            "name": "Moog Minimoog - Il Purista Analogico",
+            "description": "Sei un classicista senza compromessi! Ami il suono analogico autentico e non ti serve nulla di più. Warm, fat, leggendario.",
             "requirements": {
-                "analog": {
-                    "min": 55
+                "analogico": {
+                    "min": 50
                 },
-                "vintage": {
+                "facilita": {
+                    "min": 20
+                }
+            }
+        },
+        {
+            "name": "Volca Keys - Il Portatile Perfetto",
+            "description": "Always ready to jam! La tua portabilità è leggendaria. Piccolo ma potente, puoi fare musica ovunque ti trovi.",
+            "requirements": {
+                "portabilita": {
+                    "min": 50
+                },
+                "budget": {
+                    "min": 35
+                }
+            }
+        },
+        {
+            "name": "Casio MT-30 - Il Re del Budget",
+            "description": "Maximum fun, minimum spend! Dimostri che non servono migliaia di euro per fare buona musica. L'essenziale fatto bene.",
+            "requirements": {
+                "budget": {
+                    "min": 50
+                },
+                "facilita": {
+                    "min": 40
+                }
+            }
+        },
+        {
+            "name": "Roland JD-Xi - L'User-Friendly",
+            "description": "Plug and play master! Sei la scelta perfetta per chi vuole risultati immediati. Facile da usare ma non banale.",
+            "requirements": {
+                "facilita": {
+                    "min": 50
+                },
+                "portabilita": {
                     "min": 30
                 }
             }
         },
         {
-            "name": "Yamaha DX7 - Il Digitale Pioniere",
-            "description": "Crystal clear precision! Hai rivoluzionato l'elettronica con la FM synthesis. Suoni puliti, precisi e che hanno definito gli anni '80.",
+            "name": "Buchla Music Easel - L'Unicorno Sonoro",
+            "description": "One of a kind! Il tuo suono è inconfondibile e irripetibile. Sei raro, prezioso e decisamente fuori dagli schemi.",
             "requirements": {
-                "digital": {
-                    "min": 55
+                "unicita": {
+                    "min": 50
                 },
-                "modern": {
-                    "min": 25
+                "analogico": {
+                    "min": 30
                 }
             }
         },
         {
-            "name": "Roland Jupiter-8 - L'Aristocratico Vintage",
-            "description": "Classy and timeless! Sei l'eleganza fatta suono. Vintage ma raffinato, con una presenza scenica che fa girare la testa. Pura classe analogica.",
+            "name": "Korg Minilogue XD - Il Tutto-Fare Analogico",
+            "description": "Best bang for buck analog! Unisci tradizione analogica e praticità moderna. Un compromesso che funziona alla grande.",
             "requirements": {
-                "vintage": {
-                    "min": 55
-                },
-                "analog": {
-                    "min": 35
-                }
-            }
-        },
-        {
-            "name": "Serum/Massive - Il Moderno Digitale",
-            "description": "Future sound architect! Rappresenti l'innovazione nella sintesi digitale. Infinitamente programmabile e sempre al passo con i tempi.",
-            "requirements": {
-                "modern": {
-                    "min": 55
-                },
-                "digital": {
-                    "min": 35
-                }
-            }
-        },
-        {
-            "name": "Buchla Modular - Lo Sperimentale",
-            "description": "Sonic explorer! Non segui le regole, le reinventi. Ogni patch è un viaggio nell'ignoto. Sei l'avanguardia della sintesi elettronica.",
-            "requirements": {
-                "experimental": {
-                    "min": 55
-                },
-                "modern": {
-                    "min": 25
-                }
-            }
-        },
-        {
-            "name": "Roland Juno-106 - Il Versatile",
-            "description": "Everyone's favorite! Sei amato da tutti per la tua versatilità. Analogico ma user-friendly, perfetto per qualsiasi genere musicale.",
-            "requirements": {
-                "analog": {
+                "analogico": {
                     "min": 40
                 },
-                "vintage": {
+                "budget": {
                     "min": 35
                 },
-                "experimental": {
-                    "max": 35
+                "facilita": {
+                    "min": 35
                 }
             }
         },
         {
-            "name": "Korg Minilogue - Il Democratico Moderno",
-            "description": "Accessible analog! Porti il suono analogico alle masse moderne. Vintage nell'anima ma contemporaneo nell'approccio.",
+            "name": "Teenage Engineering OP-1 - Il Creativo Portatile",
+            "description": "Workflow wizard! Unisci creatività, portabilità e unicità in un package irresistibile. Piccolo genio musicale.",
             "requirements": {
-                "analog": {
+                "portabilita": {
+                    "min": 40
+                },
+                "unicita": {
                     "min": 35
                 },
-                "modern": {
-                    "min": 35
-                },
-                "vintage": {
-                    "min": 25
+                "facilita": {
+                    "min": 30
                 }
             }
         },
         {
-            "name": "Synth Ibrido - Il Camaleonte",
-            "description": "Best of all worlds! Non ti definisci in una categoria perché padroneggi tutti gli stili. La tua versatilità è leggendaria.",
+            "name": "Roland System-1 - Il Versatile Digitale",
+            "description": "Jack of all trades! Non hai una specializzazione specifica, ma questa è la tua forza. Adattabile e sempre utile.",
             "requirements": {
-                "analog": {
+                "analogico": {
                     "min": 0,
                     "max": 100
                 },
-                "digital": {
+                "portabilita": {
                     "min": 0,
                     "max": 100
                 },
-                "vintage": {
+                "budget": {
                     "min": 0,
                     "max": 100
                 },
-                "modern": {
+                "facilita": {
                     "min": 0,
                     "max": 100
                 },
-                "experimental": {
+                "unicita": {
                     "min": 0,
                     "max": 100
                 }

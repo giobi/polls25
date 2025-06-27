@@ -127,26 +127,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Mostra skills durante il test (opzionale)
         updateSkillsDisplay();
-    };
-
-    const updateSkillsDisplay = () => {
+    };    const updateSkillsDisplay = () => {
         if (currentQuestionIndex > 0) {
             skillsDisplay.style.display = 'block';
-
+            
             const maxValue = Math.max(...Object.values(userSkills));
-
-            skillsBars.innerHTML = Object.entries(userSkills).map(([skill, value]) => `
-                <div class="col-md-2 mb-2">
-                    <div class="text-center">
-                        <small class="text-muted">${pollData.skills[skill]}</small>
-                        <div class="progress mt-1" style="height: 20px;">
-                            <div class="progress-bar bg-info" style="width: ${maxValue > 0 ? (value / maxValue) * 100 : 0}%">
-                                ${value}
+            
+            skillsBars.innerHTML = `
+                <div class="skills-row">
+                    ${Object.entries(userSkills).map(([skill, value]) => `
+                        <div class="skill-item">
+                            <span class="skill-label">${pollData.skills[skill]}</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: ${maxValue > 0 ? (value / maxValue) * 100 : 0}%"></div>
                             </div>
+                            <span class="skill-value">${value}</span>
                         </div>
-                    </div>
+                    `).join('')}
                 </div>
-            `).join('');
+            `;
         }
     };
 

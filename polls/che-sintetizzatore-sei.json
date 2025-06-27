@@ -1,671 +1,391 @@
 {
     "version": 2,
     "title": "Che sintetizzatore sei?",
-    "description": "Scopri quale leggendario synth rappresenta meglio la tua personalità e il tuo approccio alla creatività!",
+    "description": "Test veloce e divertente: scopri il synth che rispecchia la tua personalità!",
     "skills": {
-        "classico": "Tradizione & Classicità",
-        "sperimentale": "Innovazione & Sperimentazione",
-        "tecnico": "Precisione & Controllo",
-        "creativo": "Ispirazione & Fantasia",
-        "pratico": "Efficienza & Risultati"
+        "analog": "Calore Analogico",
+        "digital": "Precisione Digitale",
+        "vintage": "Spirito Vintage",
+        "modern": "Innovazione Moderna",
+        "experimental": "Ricerca Sperimentale"
     },
     "questions": [
         {
-            "text": "Come preferisci approcciare un nuovo progetto creativo?",
+            "text": "Candela o Lampadina LED?",
             "answers": [
                 {
-                    "text": "Studio tutti i metodi classici prima di iniziare",
+                    "text": "Candela",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 1
+                        "vintage": 4,
+                        "analog": 2
                     }
                 },
                 {
-                    "text": "Mi butto subito a sperimentare senza regole",
+                    "text": "LED",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 0
-                    }
-                },
-                {
-                    "text": "Pianifico ogni dettaglio con precisione matematica",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 0,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Lascio che l'ispirazione mi guidi liberamente",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 2,
-                        "tecnico": 0,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Uso gli strumenti più efficienti per ottenere risultati rapidi",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 3
+                        "modern": 4,
+                        "digital": 2
                     }
                 }
             ]
         },
         {
-            "text": "Quale tipo di strumento musicale ti attira di più?",
+            "text": "Polaroid o Instagram?",
             "answers": [
                 {
-                    "text": "Un pianoforte a coda, elegante e senza tempo",
+                    "text": "Polaroid",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 1,
-                        "creativo": 2,
-                        "pratico": 1
+                        "analog": 4,
+                        "vintage": 2
                     }
                 },
                 {
-                    "text": "Uno strumento fatto di oggetti riciclati e circuiti strani",
+                    "text": "Instagram",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 0
-                    }
-                },
-                {
-                    "text": "Un'orchestra sinfonica con 100 elementi perfettamente accordati",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 0,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Un kalimba o uno strumento etnico con storia antica",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 1,
-                        "tecnico": 0,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Una chitarra elettrica: versatile e sempre efficace",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 1,
-                        "creativo": 2,
-                        "pratico": 3
+                        "digital": 3,
+                        "modern": 3
                     }
                 }
             ]
         },
         {
-            "text": "Come gestisci la complessità in un progetto?",
+            "text": "Jeans o Tuta?",
             "answers": [
                 {
-                    "text": "Preferisco soluzioni semplici e consolidate nel tempo",
+                    "text": "Jeans",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 1,
-                        "creativo": 1,
-                        "pratico": 2
+                        "vintage": 3,
+                        "analog": 2
                     }
                 },
                 {
-                    "text": "Più è complicato e strano, più mi diverto!",
+                    "text": "Tuta",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 0
-                    }
-                },
-                {
-                    "text": "Ogni dettaglio deve essere perfetto e controllabile",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Cerco sempre l'equilibrio tra funzionalità e bellezza",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Taglio tutto ciò che non serve al risultato finale",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 3
+                        "modern": 3,
+                        "experimental": 2
                     }
                 }
             ]
         },
         {
-            "text": "Qual è il tuo ambiente di lavoro ideale?",
+            "text": "Torta della nonna o Sushi?",
             "answers": [
                 {
-                    "text": "Studio classico con legno, libri e strumenti vintage",
+                    "text": "Torta",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 1,
-                        "creativo": 2,
-                        "pratico": 1
+                        "analog": 3,
+                        "vintage": 3
                     }
                 },
                 {
-                    "text": "Laboratorio caotico pieno di cavi, circuiti e esperimenti",
+                    "text": "Sushi",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 0
-                    }
-                },
-                {
-                    "text": "Sala controllo con monitor, analizzatori e precisione millimetrica",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Spazio aperto con luce naturale e atmosfera rilassante",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 1,
-                        "tecnico": 0,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Ovunque ci sia una presa di corrente e wifi",
-                    "values": {
-                        "classico": 0,
-                        "sperimentale": 2,
-                        "tecnico": 1,
-                        "creativo": 1,
-                        "pratico": 3
+                        "modern": 3,
+                        "experimental": 2
                     }
                 }
             ]
         },
         {
-            "text": "Come scegli i tuoi strumenti di lavoro?",
+            "text": "Scrivania di legno o Scrivania IKEA?",
             "answers": [
                 {
-                    "text": "Solo marchi storici con decenni di esperienza",
+                    "text": "Legno",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 1
+                        "vintage": 3,
+                        "analog": 3
                     }
                 },
                 {
-                    "text": "Più è sconosciuto e alternativo, meglio è",
+                    "text": "IKEA",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 0
-                    }
-                },
-                {
-                    "text": "Analizzo ogni specifica tecnica e confronto le performance",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 0,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Deve ispirarmi al primo sguardo",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 2,
-                        "tecnico": 0,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Rapporto qualità/prezzo e facilità d'uso",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 3
+                        "modern": 3,
+                        "digital": 2
                     }
                 }
             ]
         },
         {
-            "text": "Che tipo di suoni preferisci creare?",
+            "text": "Mercatino o Amazon?",
             "answers": [
                 {
-                    "text": "Suoni caldi e organici che ricordano strumenti acustici",
+                    "text": "Mercatino",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 1,
-                        "creativo": 2,
-                        "pratico": 1
+                        "vintage": 4,
+                        "experimental": 2
                     }
                 },
                 {
-                    "text": "Texture strane, glitch e suoni che nessuno ha mai sentito",
+                    "text": "Amazon",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 0
-                    }
-                },
-                {
-                    "text": "Suoni cristallini e perfetti, matematicamente precisi",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Atmosfere evocative che raccontano storie",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 2,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Suoni che funzionano bene in qualsiasi contesto",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 3
+                        "digital": 4,
+                        "modern": 2
                     }
                 }
             ]
         },
         {
-            "text": "Come approcci l'apprendimento di nuove tecniche?",
+            "text": "Barba o Rasato?",
             "answers": [
                 {
-                    "text": "Studio i maestri del passato e imparo le basi solide",
+                    "text": "Barba",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 1
+                        "analog": 3,
+                        "vintage": 2
                     }
                 },
                 {
-                    "text": "Sperimento finché non capita qualcosa di interessante",
+                    "text": "Rasato",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 0,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Leggo ogni manuale e comprendo ogni parametro",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 0,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Lascio che l'intuizione mi guidi nell'esplorazione",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 2,
-                        "tecnico": 0,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Guardo tutorial su YouTube e provo subito",
-                    "values": {
-                        "classico": 0,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 3
+                        "digital": 3,
+                        "modern": 2
                     }
                 }
             ]
         },
         {
-            "text": "Quale filosofia di design preferisci?",
+            "text": "Camino o Condizionatore?",
             "answers": [
                 {
-                    "text": "'Se funzionava 50 anni fa, funziona ancora oggi'",
+                    "text": "Camino",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 2
+                        "analog": 4,
+                        "vintage": 3
                     }
                 },
                 {
-                    "text": "'Rompi tutte le regole e inventa qualcosa di nuovo'",
+                    "text": "Condizionatore",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 0
-                    }
-                },
-                {
-                    "text": "'Ogni componente deve essere perfetto e ottimizzato'",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "'La bellezza è nell'armonia tra forma e funzione'",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "'Meno è meglio, se fa quello che serve'",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 3
+                        "digital": 3,
+                        "modern": 3
                     }
                 }
             ]
         },
         {
-            "text": "Come gestisci i limiti tecnici?",
+            "text": "Bicicletta vintage o E-bike?",
             "answers": [
                 {
-                    "text": "Li rispetto, sono parte della tradizione",
+                    "text": "Vintage",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 1
+                        "vintage": 4,
+                        "analog": 2
                     }
                 },
                 {
-                    "text": "Li uso come trampolino per l'innovazione",
+                    "text": "E-bike",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Li supero con la tecnologia più avanzata",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Li trasformo in caratteristiche uniche",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 2,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Li aggiorno quando diventano un problema",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 3
+                        "modern": 4,
+                        "digital": 2
                     }
                 }
             ]
         },
         {
-            "text": "Qual è il tuo rapporto con la tecnologia?",
+            "text": "Giornale cartaceo o News app?",
             "answers": [
                 {
-                    "text": "Preferisco l'analogico, ha un'anima",
+                    "text": "Cartaceo",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 1,
-                        "tecnico": 1,
-                        "creativo": 2,
-                        "pratico": 1
+                        "vintage": 3,
+                        "analog": 2
                     }
                 },
                 {
-                    "text": "Mischio tutto: digitale, analogico, fatto in casa",
+                    "text": "App",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 2,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Solo il digitale offre la precisione che cerco",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Uso la tecnologia per esprimere emozioni",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 2,
-                        "tecnico": 2,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Quello che funziona meglio per il mio workflow",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 3
+                        "digital": 4,
+                        "modern": 2
                     }
                 }
             ]
         },
         {
-            "text": "Come condividi il tuo lavoro con gli altri?",
+            "text": "Macchina del caffè o Moka?",
             "answers": [
                 {
-                    "text": "Solo quando è perfetto e rispetta i canoni classici",
+                    "text": "Moka",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 1,
-                        "pratico": 1
+                        "analog": 4,
+                        "vintage": 2
                     }
                 },
                 {
-                    "text": "Condivido tutto: anche gli errori sono arte",
+                    "text": "Macchina",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 0,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Dopo aver analizzato ogni aspetto tecnico",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 0,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
-                    }
-                },
-                {
-                    "text": "Quando sento che può emozionare qualcuno",
-                    "values": {
-                        "classico": 2,
-                        "sperimentale": 1,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 1
-                    }
-                },
-                {
-                    "text": "Quando può essere utile ad altri",
-                    "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 3
+                        "digital": 3,
+                        "modern": 3
                     }
                 }
             ]
         },
         {
-            "text": "Quale sarebbe il tuo setup ideale?",
+            "text": "Zaino di pelle o Zaino tecnico?",
             "answers": [
                 {
-                    "text": "Pochi strumenti vintage, ma perfetti e iconici",
+                    "text": "Pelle",
                     "values": {
-                        "classico": 3,
-                        "sperimentale": 0,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 1
+                        "vintage": 3,
+                        "analog": 3
                     }
                 },
                 {
-                    "text": "Un caos organizzato di cavi, moduli e prototipi",
+                    "text": "Tecnico",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 3,
-                        "tecnico": 2,
-                        "creativo": 3,
-                        "pratico": 0
+                        "modern": 3,
+                        "digital": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Orologio a lancette o Smartwatch?",
+            "answers": [
+                {
+                    "text": "Lancette",
+                    "values": {
+                        "vintage": 4,
+                        "analog": 3
                     }
                 },
                 {
-                    "text": "Workstation digitale con controllo totale",
+                    "text": "Smartwatch",
                     "values": {
-                        "classico": 1,
-                        "sperimentale": 1,
-                        "tecnico": 3,
-                        "creativo": 1,
-                        "pratico": 2
+                        "digital": 4,
+                        "modern": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Dischi in vinile o Streaming?",
+            "answers": [
+                {
+                    "text": "Vinile",
+                    "values": {
+                        "vintage": 4,
+                        "analog": 4
                     }
                 },
                 {
-                    "text": "Strumenti belli che ispirano solo a guardarli",
+                    "text": "Streaming",
                     "values": {
-                        "classico": 2,
-                        "sperimentale": 2,
-                        "tecnico": 1,
-                        "creativo": 3,
-                        "pratico": 1
+                        "digital": 4,
+                        "modern": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Quaderno o Tablet?",
+            "answers": [
+                {
+                    "text": "Quaderno",
+                    "values": {
+                        "analog": 3,
+                        "vintage": 2
                     }
                 },
                 {
-                    "text": "Laptop, cuffie e creatività: posso lavorare ovunque",
+                    "text": "Tablet",
                     "values": {
-                        "classico": 0,
-                        "sperimentale": 2,
-                        "tecnico": 2,
-                        "creativo": 2,
-                        "pratico": 3
+                        "digital": 3,
+                        "modern": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Forno a legna o Microonde?",
+            "answers": [
+                {
+                    "text": "Legna",
+                    "values": {
+                        "analog": 4,
+                        "vintage": 2
+                    }
+                },
+                {
+                    "text": "Microonde",
+                    "values": {
+                        "digital": 3,
+                        "modern": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Arte astratta o Fotografia?",
+            "answers": [
+                {
+                    "text": "Astratta",
+                    "values": {
+                        "experimental": 4,
+                        "analog": 2
+                    }
+                },
+                {
+                    "text": "Fotografia",
+                    "values": {
+                        "digital": 3,
+                        "modern": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Montagna o Città?",
+            "answers": [
+                {
+                    "text": "Montagna",
+                    "values": {
+                        "analog": 3,
+                        "experimental": 2
+                    }
+                },
+                {
+                    "text": "Città",
+                    "values": {
+                        "digital": 3,
+                        "modern": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Miele o Sciroppo d'acero?",
+            "answers": [
+                {
+                    "text": "Miele",
+                    "values": {
+                        "analog": 3,
+                        "vintage": 2
+                    }
+                },
+                {
+                    "text": "Sciroppo",
+                    "values": {
+                        "experimental": 3,
+                        "modern": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Pianoforte o Chitarra elettrica?",
+            "answers": [
+                {
+                    "text": "Pianoforte",
+                    "values": {
+                        "vintage": 3,
+                        "analog": 2
+                    }
+                },
+                {
+                    "text": "Elettrica",
+                    "values": {
+                        "modern": 3,
+                        "experimental": 3
                     }
                 }
             ]
@@ -673,206 +393,116 @@
     ],
     "profiles": [
         {
-            "name": "Moog Minimoog - Il Classico Analogico",
-            "description": "Sei l'anima calda e organica della musica! Come il leggendario Minimoog, rappresenti la tradizione e l'approccio intuitivo alla creatività. Preferisci la semplicità elegante alla complessità fine a se stessa. Il tuo suono è caldo, diretto e senza fronzoli - quello che senti è quello che ottieni. Sei il punto di riferimento per chi cerca autenticità e sostanza.",
+            "name": "Moog Minimoog - Il Re Analogico",
+            "description": "Warm, fat, legendary! Sei il suono analogico per eccellenza. Caldo, ricco e inconfondibile. Un classico senza tempo che definisce l'elettronica.",
             "requirements": {
-                "classico": {
-                    "min": 25
+                "analog": {
+                    "min": 55
                 },
-                "tecnico": {
-                    "max": 15
-                },
-                "sperimentale": {
-                    "max": 15
-                }
-            }
-        },
-        {
-            "name": "Yamaha DX7 - Il Pioniere Digitale",
-            "description": "Sei la precisione matematica fatta musica! Come il rivoluzionario DX7, ami la complessità tecnica e la perfezione digitale. La sintesi FM non ha segreti per te, e trovi bellezza negli algoritmi e nelle modulazioni più intricate. Il tuo approccio è metodico e scientifico - ogni parametro ha un senso preciso nel grande disegno sonoro.",
-            "requirements": {
-                "tecnico": {
-                    "min": 25
-                },
-                "classico": {
-                    "min": 10
-                },
-                "sperimentale": {
-                    "max": 15
-                }
-            }
-        },
-        {
-            "name": "Teenage Engineering OP-1 - L'Innovatore Creativo",
-            "description": "Sei pura creatività in movimento! Come il fantasioso OP-1, rompi tutti gli schemi e porti la musica ovunque tu vada. Il tuo approccio è ludico, sperimentale e sempre sorprendente. Non ti interessa seguire le regole - preferisci inventarle! La tua portabilità mentale ti permette di creare in qualsiasi situazione.",
-            "requirements": {
-                "creativo": {
-                    "min": 25
-                },
-                "pratico": {
-                    "min": 15
-                },
-                "sperimentale": {
-                    "min": 15
-                }
-            }
-        },
-        {
-            "name": "Native Instruments Massive X - Il Costruttore di Mondi",
-            "description": "Sei l'architetto del suono del futuro! Come Massive X, eccelli nella creazione di texture sonore evolutive e complesse. La sintesi wavetable ti permette di navigare tra dimensioni sonore diverse, costruendo paesaggi musicali che cambiano e si trasformano nel tempo. Sei potente, moderno e sempre in evoluzione.",
-            "requirements": {
-                "tecnico": {
-                    "min": 20
-                },
-                "sperimentale": {
-                    "min": 20
-                },
-                "pratico": {
-                    "min": 15
-                }
-            }
-        },
-        {
-            "name": "Arturia Pigments - L'Alchimista Ibrido",
-            "description": "Sei la sintesi perfetta tra tradizione e innovazione! Come Pigments, combini il meglio di ogni mondo sonoro. La sintesi granulare ti affascina per le sue infinite possibilità creative, mentre mantieni un piede nella tradizione analogica. Sei versatile, creativo e sempre alla ricerca di nuove combinazioni sonore.",
-            "requirements": {
-                "sperimentale": {
-                    "min": 20
-                },
-                "creativo": {
-                    "min": 20
-                },
-                "tecnico": {
-                    "min": 15
-                }
-            }
-        },
-        {
-            "name": "U-He Diva - Il Purista dell'Analogico",
-            "description": "Sei l'custode della tradizione sonora! Come Diva, ricrei fedelmente la magia del passato con una precisione maniacale. Il component modeling non ha segreti per te - ogni circuito, ogni componente ha una sua personalità che sai valorizzare. Preferisci la qualità alla quantità, e il tuo suono ha quel calore inconfondibile che solo i veri classici sanno dare.",
-            "requirements": {
-                "classico": {
-                    "min": 20
-                },
-                "tecnico": {
-                    "min": 20
-                },
-                "creativo": {
-                    "min": 15
-                }
-            }
-        },
-        {
-            "name": "Buchla Easel - Il Filosofo del Suono",
-            "description": "Sei un pensatore laterale della musica! Come il Buchla Easel, rappresenti la filosofia West Coast: oscillatori complessi, modulazioni organiche e un approccio più astratto e percussivo. Non ti interessa seguire le convenzioni - preferisci esplorare le possibilità timbriche alla sorgente. Il tuo suono è organico, imprevedibile e profondamente espressivo.",
-            "requirements": {
-                "sperimentale": {
-                    "min": 25
-                },
-                "creativo": {
-                    "min": 20
-                },
-                "classico": {
-                    "max": 15
-                }
-            }
-        },
-        {
-            "name": "Modal Argon8 - Il Diplomatico Ibrido",
-            "description": "Sei il ponte perfetto tra digitale e analogico! Come l'Argon8, combini la precisione delle wavetable digitali con il calore di un filtro analogico. Rappresenti il compromesso intelligente - tecnologia moderna ma con il cuore analogico. Sai trovare il meglio di entrambi i mondi senza sacrificare l'identità sonora.",
-            "requirements": {
-                "tecnico": {
-                    "min": 15
-                },
-                "classico": {
-                    "min": 15
-                },
-                "pratico": {
-                    "min": 20
-                }
-            }
-        },
-        {
-            "name": "Ciat-Lonbarde Cocoquantus - Il Visionario Caotico",
-            "description": "Sei un artista del glitch e dell'imprevedibile! Come il Cocoquantus, il tuo approccio è radicalmente non convenzionale. Ami il lo-fi, l'errore come feature, e trovi bellezza nel caos controllato. Non ti interessano le regole tradizionali - preferisci creare i tuoi linguaggi sonori attraverso la manipolazione e la distorsione creativa.",
-            "requirements": {
-                "sperimentale": {
+                "vintage": {
                     "min": 30
-                },
-                "creativo": {
-                    "min": 25
-                },
-                "tecnico": {
-                    "max": 10
                 }
             }
         },
         {
-            "name": "Max for Live - Il Costruttore di Strumenti",
-            "description": "Sei un vero hacker sonoro! Come Max for Live, non ti accontenti degli strumenti esistenti - preferisci costruire i tuoi. La programmazione visuale ti permette di creare esattamente quello che hai in mente, senza compromessi. Sei sia artista che ingegnere, e la tua creatività si esprime tanto nel costruire lo strumento quanto nell'usarlo.",
+            "name": "Yamaha DX7 - Il Digitale Pioniere",
+            "description": "Crystal clear precision! Hai rivoluzionato l'elettronica con la FM synthesis. Suoni puliti, precisi e che hanno definito gli anni '80.",
             "requirements": {
-                "tecnico": {
+                "digital": {
+                    "min": 55
+                },
+                "modern": {
                     "min": 25
-                },
-                "sperimentale": {
-                    "min": 20
-                },
-                "creativo": {
-                    "min": 20
                 }
             }
         },
         {
-            "name": "Serum - Il Sound Designer Moderno",
-            "description": "Sei il maestro del sound design contemporaneo! Come Serum, eccelli nella creazione visuale e nella manipolazione intuitiva delle forme d'onda. La tua interfaccia mentale è grafica e immediata - vedi il suono prima di sentirlo. Sei potente, versatile e sempre all'avanguardia nelle tecniche di produzione moderna.",
+            "name": "Roland Jupiter-8 - L'Aristocratico Vintage",
+            "description": "Classy and timeless! Sei l'eleganza fatta suono. Vintage ma raffinato, con una presenza scenica che fa girare la testa. Pura classe analogica.",
             "requirements": {
-                "pratico": {
-                    "min": 25
+                "vintage": {
+                    "min": 55
                 },
-                "tecnico": {
-                    "min": 20
-                },
-                "creativo": {
-                    "min": 15
+                "analog": {
+                    "min": 35
                 }
             }
         },
         {
-            "name": "VCV Rack - L'Esploratore Modulare",
-            "description": "Sei l'incarnazione della libertà creativa totale! Come VCV Rack, rappresenti l'approccio modulare alla vita: ogni elemento è connettibile, ogni percorso è possibile. La tua mente funziona come un patchbay infinito, dove non esistono limitazioni predefinite. Sei sperimentatore, builder e visionario - il tuo playground è l'universo delle possibilità sonore.",
+            "name": "Serum/Massive - Il Moderno Digitale",
+            "description": "Future sound architect! Rappresenti l'innovazione nella sintesi digitale. Infinitamente programmabile e sempre al passo con i tempi.",
             "requirements": {
-                "sperimentale": {
-                    "min": 25
+                "modern": {
+                    "min": 55
                 },
-                "tecnico": {
-                    "min": 20
-                },
-                "creativo": {
-                    "min": 20
+                "digital": {
+                    "min": 35
                 }
             }
         },
         {
-            "name": "Sintetizzatore Indefinito - L'Esploratore Sonoro",
-            "description": "Sei un musicista dalle infinite sfaccettature! Il tuo approccio alla sintesi è unico e personale, non ti identifichi completamente in nessuna filosofia specifica ma crei il tuo linguaggio sonoro. Mescoli tradizione e innovazione, tecnica e creatività, in modo del tutto originale. Sei l'artista che non ha paura di sperimentare e di cambiare direzione quando l'ispirazione lo richiede.",
+            "name": "Buchla Modular - Lo Sperimentale",
+            "description": "Sonic explorer! Non segui le regole, le reinventi. Ogni patch è un viaggio nell'ignoto. Sei l'avanguardia della sintesi elettronica.",
             "requirements": {
-                "classico": {
+                "experimental": {
+                    "min": 55
+                },
+                "modern": {
+                    "min": 25
+                }
+            }
+        },
+        {
+            "name": "Roland Juno-106 - Il Versatile",
+            "description": "Everyone's favorite! Sei amato da tutti per la tua versatilità. Analogico ma user-friendly, perfetto per qualsiasi genere musicale.",
+            "requirements": {
+                "analog": {
+                    "min": 40
+                },
+                "vintage": {
+                    "min": 35
+                },
+                "experimental": {
+                    "max": 35
+                }
+            }
+        },
+        {
+            "name": "Korg Minilogue - Il Democratico Moderno",
+            "description": "Accessible analog! Porti il suono analogico alle masse moderne. Vintage nell'anima ma contemporaneo nell'approccio.",
+            "requirements": {
+                "analog": {
+                    "min": 35
+                },
+                "modern": {
+                    "min": 35
+                },
+                "vintage": {
+                    "min": 25
+                }
+            }
+        },
+        {
+            "name": "Synth Ibrido - Il Camaleonte",
+            "description": "Best of all worlds! Non ti definisci in una categoria perché padroneggi tutti gli stili. La tua versatilità è leggendaria.",
+            "requirements": {
+                "analog": {
                     "min": 0,
                     "max": 100
                 },
-                "sperimentale": {
+                "digital": {
                     "min": 0,
                     "max": 100
                 },
-                "tecnico": {
+                "vintage": {
                     "min": 0,
                     "max": 100
                 },
-                "creativo": {
+                "modern": {
                     "min": 0,
                     "max": 100
                 },
-                "pratico": {
+                "experimental": {
                     "min": 0,
                     "max": 100
                 }

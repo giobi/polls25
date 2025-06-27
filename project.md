@@ -27,18 +27,20 @@ La piattaforma di test è un'applicazione web che consente agli utenti di accede
 - Accesso ai test disponibili tramite la pagina principale.
 - Ricerca di test specifici.
 - **Versione 1**: Visualizzazione e completamento dei test con domande a risposta singola che contribuiscono a determinare il profilo dell'utente.
-- **Versione 2**: Sistema avanzato con domande a risposta multipla che valorizzano diverse skill numeriche (es. fat, carbs, protein, fiber). I profili sono definiti da range di valori per ogni skill e vengono valutati in ordine dal più al meno restrittivo.
+- **Versione 2**: Sistema avanzato con domande rapide (20-25 domande) con 2-4 risposte molto concise per risposta veloce. Ogni risposta valorizza diverse skill numeriche. I profili sono definiti da range di valori per ogni skill e vengono valutati in ordine dal più al meno restrittivo.
 - Calcolo dei punteggi e determinazione del profilo dell'utente.
 
 ## Versione 2 - Sistema Skill e Profili
 
 ### Struttura delle Domande V2
-Le domande della versione 2 utilizzano un sistema di skill multiple:
-- Ogni risposta ha valori numerici per diverse skill (es. fat, carbs, protein, fiber)
+Le domande della versione 2 utilizzano un sistema ottimizzato per la velocità:
+- **20-25 domande brevi** con risposte concise (massimo 2-4 opzioni)
+- **Dicotomie e tricotomie** per scelte rapide (es. "Pizza o Gelato?", "Mare, Montagna o Città?")
+- Ogni risposta ha valori numerici per diverse skill
 - I valori delle risposte si sommano per calcolare il punteggio totale per ogni skill
-- Esempio: "Ti piace di più mangiare:"
-  - Gelato: fat:5, carbs:10, protein:1
-  - Pizza: fat:3, carbs:3, protein:2
+- Esempio: "Cosa preferisci?"
+  - Pizza: comfort:3, tradition:2
+  - Sushi: modern:3, precision:2
 
 ### Sistema dei Profili V2
 I profili sono definiti da range di valori per ogni skill:
@@ -49,6 +51,14 @@ I profili sono definiti da range di valori per ogni skill:
 - Il profilo finale deve avere parametri molto ampi (es. min: 0, max: 100 per tutte le skill) per garantire che ogni utente riceva sempre un risultato
 - Esempio profilo "Sano": fat max:2 min:0, protein max:8 min:5, fiber min:5 max:10
 - Esempio profilo finale "Indefinito": tutte le skill con min:0 max:100
+
+### Test "Pop" vs Test Seri V2
+Per i test non-seri (come programmatore, sintetizzatore, lavoratore) la filosofia V2 è ancora più casual:
+- **Domande vaghe e apparentemente non correlate** al topic principale (es. "Pizza o Gelato?" invece di "Java o Python?")
+- **Stile "buzzfeed"** con scelte divertenti che includono anche opzioni apparentemente non pertinenti
+- Le domande devono essere **casuali e pop** per rendere il test più divertente e virale
+- I collegamenti tra scelte e profili avvengono a livello psicologico/indiretto
+- Esempi: "Unicorno o Drago?", "Dinosauro o Robot?", "Gelato, Pizza o Dinosauro?"
 
 ## Note
 Assicurarsi che tutti i file siano correttamente collegati e che le funzionalità siano testate per garantire un'esperienza utente fluida.

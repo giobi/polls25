@@ -1,196 +1,527 @@
 {
-  "version": 2,
-  "title": "Che tipo di lavoratore sei?",
-  "description": "Scopri il tuo stile di lavoro e le tue attitudini professionali",
-  "skills": {
-    "focus": "Concentrazione",
-    "social": "Socialità",
-    "stress": "Gestione Stress",
-    "creativity": "Creatività",
-    "leadership": "Leadership"
-  },
-  "questions": [
-    {
-      "id": 1,
-      "text": "Come preferisci lavorare?",
-      "answers": [
+    "version": 2,
+    "title": "Che tipo di lavoratore sei?",
+    "description": "Test veloce e divertente: scopri la tua personalità lavorativa!",
+    "skills": {
+        "leadership": "Leadership & Comando",
+        "creativity": "Creatività & Innovazione",
+        "teamwork": "Collaborazione & Team",
+        "independence": "Autonomia & Indipendenza",
+        "precision": "Precisione & Dettaglio"
+    },
+    "questions": [
         {
-          "text": "Da solo in ufficio silenzioso",
-          "values": { "focus": 8, "social": 1, "stress": 3, "creativity": 4, "leadership": 2 }
+            "text": "Pizza o Sushi?",
+            "answers": [
+                {
+                    "text": "Pizza",
+                    "values": {
+                        "teamwork": 3,
+                        "creativity": 2
+                    }
+                },
+                {
+                    "text": "Sushi",
+                    "values": {
+                        "precision": 3,
+                        "independence": 2
+                    }
+                }
+            ]
         },
         {
-          "text": "In team con colleghi",
-          "values": { "focus": 4, "social": 9, "stress": 5, "creativity": 6, "leadership": 7 }
+            "text": "Cane o Gatto?",
+            "answers": [
+                {
+                    "text": "Cane",
+                    "values": {
+                        "leadership": 3,
+                        "teamwork": 2
+                    }
+                },
+                {
+                    "text": "Gatto",
+                    "values": {
+                        "independence": 4,
+                        "precision": 1
+                    }
+                }
+            ]
         },
         {
-          "text": "In spazi aperti e dinamici",
-          "values": { "focus": 3, "social": 7, "stress": 8, "creativity": 9, "leadership": 5 }
+            "text": "Montagna o Mare?",
+            "answers": [
+                {
+                    "text": "Montagna",
+                    "values": {
+                        "independence": 3,
+                        "precision": 2
+                    }
+                },
+                {
+                    "text": "Mare",
+                    "values": {
+                        "creativity": 3,
+                        "teamwork": 2
+                    }
+                }
+            ]
         },
         {
-          "text": "Dirigendo progetti importanti",
-          "values": { "focus": 6, "social": 6, "stress": 9, "creativity": 5, "leadership": 10 }
+            "text": "Caffè o Tè?",
+            "answers": [
+                {
+                    "text": "Caffè",
+                    "values": {
+                        "leadership": 2,
+                        "creativity": 3
+                    }
+                },
+                {
+                    "text": "Tè",
+                    "values": {
+                        "precision": 3,
+                        "independence": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Netflix o YouTube?",
+            "answers": [
+                {
+                    "text": "Netflix",
+                    "values": {
+                        "independence": 3,
+                        "precision": 2
+                    }
+                },
+                {
+                    "text": "YouTube",
+                    "values": {
+                        "creativity": 3,
+                        "teamwork": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Libro o Film?",
+            "answers": [
+                {
+                    "text": "Libro",
+                    "values": {
+                        "precision": 3,
+                        "independence": 3
+                    }
+                },
+                {
+                    "text": "Film",
+                    "values": {
+                        "creativity": 2,
+                        "teamwork": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Inverno o Estate?",
+            "answers": [
+                {
+                    "text": "Inverno",
+                    "values": {
+                        "precision": 3,
+                        "independence": 2
+                    }
+                },
+                {
+                    "text": "Estate",
+                    "values": {
+                        "creativity": 3,
+                        "teamwork": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Ordine o Caos?",
+            "answers": [
+                {
+                    "text": "Ordine",
+                    "values": {
+                        "precision": 4,
+                        "leadership": 2
+                    }
+                },
+                {
+                    "text": "Caos",
+                    "values": {
+                        "creativity": 4,
+                        "independence": 1
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Alzarti presto o Tardi?",
+            "answers": [
+                {
+                    "text": "Presto",
+                    "values": {
+                        "leadership": 3,
+                        "precision": 2
+                    }
+                },
+                {
+                    "text": "Tardi",
+                    "values": {
+                        "creativity": 3,
+                        "independence": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Dolce o Salato?",
+            "answers": [
+                {
+                    "text": "Dolce",
+                    "values": {
+                        "creativity": 3,
+                        "teamwork": 2
+                    }
+                },
+                {
+                    "text": "Salato",
+                    "values": {
+                        "leadership": 2,
+                        "precision": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Silenzio o Musica?",
+            "answers": [
+                {
+                    "text": "Silenzio",
+                    "values": {
+                        "precision": 4,
+                        "independence": 2
+                    }
+                },
+                {
+                    "text": "Musica",
+                    "values": {
+                        "creativity": 4,
+                        "teamwork": 1
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Rosso o Blu?",
+            "answers": [
+                {
+                    "text": "Rosso",
+                    "values": {
+                        "leadership": 4,
+                        "creativity": 2
+                    }
+                },
+                {
+                    "text": "Blu",
+                    "values": {
+                        "precision": 3,
+                        "independence": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Unicorno o Drago?",
+            "answers": [
+                {
+                    "text": "Unicorno",
+                    "values": {
+                        "teamwork": 3,
+                        "creativity": 3
+                    }
+                },
+                {
+                    "text": "Drago",
+                    "values": {
+                        "leadership": 4,
+                        "independence": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Viaggio in auto o in treno?",
+            "answers": [
+                {
+                    "text": "Auto",
+                    "values": {
+                        "independence": 4,
+                        "leadership": 2
+                    }
+                },
+                {
+                    "text": "Treno",
+                    "values": {
+                        "teamwork": 3,
+                        "precision": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Puzzle o Videogiochi?",
+            "answers": [
+                {
+                    "text": "Puzzle",
+                    "values": {
+                        "precision": 4,
+                        "independence": 2
+                    }
+                },
+                {
+                    "text": "Videogiochi",
+                    "values": {
+                        "creativity": 3,
+                        "teamwork": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Pasta o Riso?",
+            "answers": [
+                {
+                    "text": "Pasta",
+                    "values": {
+                        "creativity": 2,
+                        "teamwork": 3
+                    }
+                },
+                {
+                    "text": "Riso",
+                    "values": {
+                        "precision": 3,
+                        "independence": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Supereroe o Villain?",
+            "answers": [
+                {
+                    "text": "Supereroe",
+                    "values": {
+                        "leadership": 3,
+                        "teamwork": 3
+                    }
+                },
+                {
+                    "text": "Villain",
+                    "values": {
+                        "independence": 3,
+                        "creativity": 3
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Pianeta Terra o Spazio?",
+            "answers": [
+                {
+                    "text": "Terra",
+                    "values": {
+                        "teamwork": 3,
+                        "precision": 2
+                    }
+                },
+                {
+                    "text": "Spazio",
+                    "values": {
+                        "creativity": 4,
+                        "independence": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Maglietta o Camicia?",
+            "answers": [
+                {
+                    "text": "Maglietta",
+                    "values": {
+                        "creativity": 3,
+                        "independence": 2
+                    }
+                },
+                {
+                    "text": "Camicia",
+                    "values": {
+                        "leadership": 3,
+                        "precision": 2
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Robot o Umano?",
+            "answers": [
+                {
+                    "text": "Robot",
+                    "values": {
+                        "precision": 4,
+                        "independence": 3
+                    }
+                },
+                {
+                    "text": "Umano",
+                    "values": {
+                        "teamwork": 4,
+                        "creativity": 2
+                    }
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 2,
-      "text": "Quando hai una scadenza importante:",
-      "answers": [
+    ],
+    "profiles": [
         {
-          "text": "Planifico tutto nei minimi dettagli",
-          "values": { "focus": 9, "social": 3, "stress": 7, "creativity": 3, "leadership": 5 }
+            "name": "CEO/Manager - Il Leader Nato",
+            "description": "Hai il comando nel DNA! Sai guidare team, prendere decisioni difficili e ispirare gli altri. La pressione ti stimola e ami le sfide. Sei nato per dirigere.",
+            "requirements": {
+                "leadership": {
+                    "min": 55
+                },
+                "teamwork": {
+                    "min": 25
+                }
+            }
         },
         {
-          "text": "Chiedo aiuto ai colleghi",
-          "values": { "focus": 5, "social": 8, "stress": 4, "creativity": 4, "leadership": 3 }
+            "name": "Creative Director - L'Innovatore",
+            "description": "Le idee sono la tua valuta! Pensi fuori dagli schemi, proponi soluzioni innovative e inspiri il team con la tua visione creativa. Sei l'anima creativa dell'azienda.",
+            "requirements": {
+                "creativity": {
+                    "min": 55
+                },
+                "leadership": {
+                    "min": 30
+                }
+            }
         },
         {
-          "text": "Trovo soluzioni creative last-minute",
-          "values": { "focus": 4, "social": 4, "stress": 9, "creativity": 10, "leadership": 6 }
+            "name": "Team Player - Il Collaboratore",
+            "description": "Together we're stronger! Ami lavorare in squadra, supporti i colleghi e crei un ambiente positivo. Sei il collante che tiene unito il gruppo.",
+            "requirements": {
+                "teamwork": {
+                    "min": 55
+                },
+                "creativity": {
+                    "min": 20
+                }
+            }
         },
         {
-          "text": "Coordino il team per rispettare i tempi",
-          "values": { "focus": 6, "social": 7, "stress": 8, "creativity": 5, "leadership": 9 }
+            "name": "Freelancer - L'Indipendente",
+            "description": "Freedom is everything! Lavori meglio da solo, gestisci i tuoi tempi e progetti. L'autonomia è fondamentale per la tua produttività e felicità.",
+            "requirements": {
+                "independence": {
+                    "min": 55
+                },
+                "precision": {
+                    "min": 25
+                }
+            }
+        },
+        {
+            "name": "Analyst/Specialist - Il Perfezionista",
+            "description": "Details matter! Ami l'accuratezza, l'analisi approfondita e il lavoro di qualità. Sei la persona a cui tutti si rivolgono per verifiche e controlli.",
+            "requirements": {
+                "precision": {
+                    "min": 55
+                },
+                "independence": {
+                    "min": 30
+                }
+            }
+        },
+        {
+            "name": "Project Manager - L'Organizzatore",
+            "description": "Fai accadere le cose! Coordini team, rispetti deadlines e gestisci complessità. Sei il ponte tra visione e realizzazione.",
+            "requirements": {
+                "leadership": {
+                    "min": 40
+                },
+                "teamwork": {
+                    "min": 35
+                },
+                "precision": {
+                    "min": 25
+                }
+            }
+        },
+        {
+            "name": "Startup Employee - Il Versatile",
+            "description": "Jack of all trades! Ti adatti rapidamente, sei creativo e indipendente. Ami l'ambiente dinamico e le sfide continue delle startup.",
+            "requirements": {
+                "creativity": {
+                    "min": 35
+                },
+                "independence": {
+                    "min": 35
+                },
+                "leadership": {
+                    "min": 20
+                }
+            }
+        },
+        {
+            "name": "Consulente - Il Problem Solver",
+            "description": "Risolvi ogni problema! Combini precisione analitica con capacità di leadership. Entri, capisci, risolvi e passi al prossimo challenge.",
+            "requirements": {
+                "precision": {
+                    "min": 40
+                },
+                "leadership": {
+                    "min": 30
+                },
+                "independence": {
+                    "min": 25
+                }
+            }
+        },
+        {
+            "name": "Lavoratore Ibrido - L'Adattabile",
+            "description": "Sei un mix perfetto! Non ti definisci in una categoria perché sai adattarti a ogni situazione lavorativa. La tua versatilità è la tua forza.",
+            "requirements": {
+                "leadership": {
+                    "min": 0,
+                    "max": 100
+                },
+                "creativity": {
+                    "min": 0,
+                    "max": 100
+                },
+                "teamwork": {
+                    "min": 0,
+                    "max": 100
+                },
+                "independence": {
+                    "min": 0,
+                    "max": 100
+                },
+                "precision": {
+                    "min": 0,
+                    "max": 100
+                }
+            }
         }
-      ]
-    },
-    {
-      "id": 3,
-      "text": "Il tuo ambiente di lavoro ideale è:",
-      "answers": [
-        {
-          "text": "Biblioteca o ufficio privato",
-          "values": { "focus": 10, "social": 1, "stress": 2, "creativity": 3, "leadership": 2 }
-        },
-        {
-          "text": "Coworking con tante persone",
-          "values": { "focus": 3, "social": 9, "stress": 6, "creativity": 7, "leadership": 5 }
-        },
-        {
-          "text": "Studio artistico o lab creativo",
-          "values": { "focus": 5, "social": 4, "stress": 5, "creativity": 10, "leadership": 3 }
-        },
-        {
-          "text": "Sala riunioni con vista panoramica",
-          "values": { "focus": 6, "social": 7, "stress": 7, "creativity": 4, "leadership": 9 }
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "text": "Di fronte a un problema complesso:",
-      "answers": [
-        {
-          "text": "Lo analizzi metodicamente passo passo",
-          "values": { "focus": 9, "social": 2, "stress": 4, "creativity": 3, "leadership": 4 }
-        },
-        {
-          "text": "Organizzi un brainstorming di gruppo",
-          "values": { "focus": 4, "social": 9, "stress": 5, "creativity": 7, "leadership": 8 }
-        },
-        {
-          "text": "Cerchi una soluzione innovativa",
-          "values": { "focus": 6, "social": 3, "stress": 6, "creativity": 10, "leadership": 5 }
-        },
-        {
-          "text": "Delega e coordini le soluzioni",
-          "values": { "focus": 5, "social": 6, "stress": 8, "creativity": 4, "leadership": 10 }
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "text": "Durante le pause preferisci:",
-      "answers": [
-        {
-          "text": "Leggere o studiare da solo",
-          "values": { "focus": 8, "social": 1, "stress": 2, "creativity": 4, "leadership": 2 }
-        },
-        {
-          "text": "Chiacchierare con i colleghi",
-          "values": { "focus": 3, "social": 10, "stress": 3, "creativity": 5, "leadership": 6 }
-        },
-        {
-          "text": "Disegnare o ascoltare musica",
-          "values": { "focus": 5, "social": 2, "stress": 4, "creativity": 9, "leadership": 3 }
-        },
-        {
-          "text": "Pianificare i prossimi progetti",
-          "values": { "focus": 7, "social": 4, "stress": 6, "creativity": 5, "leadership": 8 }
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "text": "Il tuo punto di forza maggiore è:",
-      "answers": [
-        {
-          "text": "Precisione e attenzione ai dettagli",
-          "values": { "focus": 10, "social": 2, "stress": 5, "creativity": 2, "leadership": 3 }
-        },
-        {
-          "text": "Capacità di lavorare in team",
-          "values": { "focus": 4, "social": 10, "stress": 4, "creativity": 6, "leadership": 7 }
-        },
-        {
-          "text": "Pensiero fuori dagli schemi",
-          "values": { "focus": 5, "social": 3, "stress": 6, "creativity": 10, "leadership": 4 }
-        },
-        {
-          "text": "Capacità di motivare gli altri",
-          "values": { "focus": 5, "social": 8, "stress": 7, "creativity": 5, "leadership": 10 }
-        }
-      ]
-    }
-  ],
-  "profiles": [
-    {
-      "id": "ceo-nato",
-      "name": "CEO Nato",
-      "description": "Sei un leader naturale! Hai tutte le qualità per dirigere: sai gestire lo stress, hai carisma e riesci a mantenere la concentrazione anche nelle situazioni più complesse. Il tuo futuro è al vertice!",
-      "requirements": {
-        "leadership": { "min": 35, "max": 60 },
-        "stress": { "min": 30, "max": 60 },
-        "focus": { "min": 25, "max": 60 }
-      }
-    },
-    {
-      "id": "creativo-puro",
-      "name": "Creativo Puro",
-      "description": "La creatività è la tua superpotenza! Hai una mente brillante che trova soluzioni innovative. Sei perfetto per ruoli in design, marketing creativo, arte o sviluppo di prodotti innovativi.",
-      "requirements": {
-        "creativity": { "min": 40, "max": 60 },
-        "social": { "min": 15, "max": 35 },
-        "focus": { "min": 10, "max": 40 }
-      }
-    },
-    {
-      "id": "team-player",
-      "name": "Team Player",
-      "description": "Sei l'anima del gruppo! La tua capacità di lavorare con gli altri è eccezionale. Sai creare armonia nel team e gestire bene lo stress. Perfetto per ruoli di coordinamento e gestione risorse umane.",
-      "requirements": {
-        "social": { "min": 35, "max": 60 },
-        "leadership": { "min": 20, "max": 40 },
-        "stress": { "min": 10, "max": 30 }
-      }
-    },
-    {
-      "id": "analista-metodico",
-      "name": "Analista Metodico",
-      "description": "La precisione è il tuo marchio di fabbrica! Hai una concentrazione ferrea e un approccio sistematico al lavoro. Sei ideale per ruoli analitici, ricerca, programmazione e controllo qualità.",
-      "requirements": {
-        "focus": { "min": 40, "max": 60 },
-        "creativity": { "min": 0, "max": 25 },
-        "stress": { "min": 15, "max": 35 }
-      }
-    },
-    {
-      "id": "lavoratore-versatile",
-      "name": "Lavoratore Versatile",
-      "description": "Sei un professionista completo e adattabile! Sai muoverti bene in diversi contesti lavorativi e hai un buon equilibrio tra tutte le competenze. La tua flessibilità è un grande vantaggio!",
-      "requirements": {
-        "focus": { "min": 0, "max": 60 }
-      }
-    }
-  ]
+    ]
 }
